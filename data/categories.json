@@ -1,0 +1,50 @@
+[
+    {
+      "icon": "newspaper",
+      "title": "News"
+    },
+    {
+        "icon": "theater-masks",
+        "title": "Comedy"
+      },
+      {
+        "icon": "futbol",
+        "title": "Sports"
+      },
+      {
+        "icon": "microscope",
+        "title": "Education"
+      },
+      {
+        "icon": "laptop",
+        "title": "TechTalk"
+      },
+      {
+        "icon": "ghost",
+        "title": "Horror Story"
+      },
+      {
+        "icon": "coins",
+        "title": "Business"
+      },
+      {
+        "icon": "palette",
+        "title": "Arts"
+      },
+      {
+        "icon": "stethoscope",
+        "title": "Health"
+      },
+      {
+        "icon": "plane",
+        "title": "Travel"
+      },
+      {
+        "icon": "book-open",
+        "title": "History"
+      },
+      {
+        "icon": "utensils",
+        "title": "Food"
+      }
+]

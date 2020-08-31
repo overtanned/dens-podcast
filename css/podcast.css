@@ -6,6 +6,7 @@
 
 #podcast .channel h6 {
     font-size: 1.25em;
+    margin-bottom: 15px;
 }
 
 #podcast .channel h6 a {
@@ -14,6 +15,10 @@
 
 #podcast .channel h6 a:hover {
     color: #E6C515;
+    text-decoration: none;
+}
+
+#podcast .channel h6 a:active, #podcast .channel h6 a:visited {
     text-decoration: none;
 }
 

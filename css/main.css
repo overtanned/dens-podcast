@@ -11,6 +11,15 @@ body {
     margin: 2% 5%;
 }
 
+#navbar {
+    background: #141518;
+    color: #fff;
+}
+
+#navbar .logo {
+    margin: 10px 0;
+}
+
 /* Helper Class */
 .row-eq-height {
     display: flex;
