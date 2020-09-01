@@ -9,6 +9,7 @@
 
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
         <!-- jQuery -->
 
         <!-- Bootstrap -->
@@ -22,6 +23,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/js/all.min.js" integrity="sha512-/J1T4RfwfHmP/1jDH9L/1Ax51Q21YCvMJq/ynj11hTEBwguvGJ2L72yVirJn1YQWHeZx+aIi1y5zgRueUdYn1A==" crossorigin="anonymous"></script>
         <!-- Font Awesome -->
 
+        <!-- Ajaxify -->
+        <script src="https://4nf.org/ajaxify.min.js"></script>
+        <!-- Ajaxify -->
+
         <!-- ImageHover -->
         <link rel="stylesheet" href="vendor/imagehover/imagehover.min.css">
         <!-- ImageHover -->
@@ -29,8 +34,11 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/podcast.css">
         <link rel="stylesheet" href="css/player.css">
+        <link rel="stylesheet" href="css/playlist.css">
 
         <script src="js/podcast.js" async defer></script>
+        <script src="js/player.js" async defer></script>
+        <script src="js/playlist.js" async defer></script>
     </head>
     <body>
 
@@ -74,17 +82,12 @@
             </div>
             <!-- Categories End -->
 
-            <!-- Stories Start -->
-            <div id="stories">
-                <h3>Stories</h3>
-                <br>
-                <div class="row row-eq-height">
-                </div>
-            </div>
-            <!-- Stories End -->
-
         </div>
         <!-- Podcast End -->
+
+        <!-- Player -->
+        <div id="player"></div>
+        <!-- Player -->
         
     </body>
 </html>

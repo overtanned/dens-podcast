@@ -1,0 +1,23 @@
+#playlist-items {
+    clear: both;
+    margin-top: 50px;
+}
+
+#playlist-items .title {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#playlist-items .play-button {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#playlist-items [class^="playlist-item-"] {
+    border-bottom: 1px solid #36373A;
+  }
+
+  #playlist-items [class^="playlist-item-"]:hover {
+    background: #36373A;
+  }

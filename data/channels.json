@@ -1,0 +1,84 @@
+[
+      {
+        "id": "111",
+        "category": "News",
+        "subcategory": "International",
+        "image": "../images/podcasts/bbc.jpg",
+        "title": "Global News Podcast",
+        "description": "The day’s top stories from BBC News. Delivered twice a day on weekdays, daily at weekends",
+        "author": "BBC World Service"
+      },
+      {
+        "id": "121",
+        "image": "../images/podcasts/pord.png",
+        "title": "Podcast Raditya Dika",
+        "author": "Raditya Dika",
+        "description": "Podcast milik Raditya Dika dengan tema obrolan tentang keuangan, keluarga, industri kreatif, dan hal-hal di antaranya. Episode baru seminggu sekali."
+      },
+      {
+        "id": "131",
+        "image": "../images/podcasts/ted.png",
+        "title": "TED Talks Daily",
+        "author": "TED",
+        "description": "Every weekday, TED Talks Daily brings you the latest talks in audio. Join host and journalist Elise Hu for thought-provoking ideas on every subject imaginable — from Artificial Intelligence to Zoology, and everything in between — given by the world's leading thinkers and creators. With TED Talks Daily, find some space in your day to change your perspectives, ignite your curiosity, and learn something new.",
+        "url": "../audio/SoundHelix-Song-3.mp3"
+      },
+      {
+        "id": "141",
+        "image": "../images/podcasts/jawa.jpg",
+        "title": "Podcast Jawa",
+        "description": "Podcast ini akan berbahasa campuran antara bahasa Indonesia dan Jawa. Jadi tidak 100% full bahasa Jawa. Selamat menikmati. Sugeng mirengke podcast niki lurr!",
+        "url": "../audio/SoundHelix-Song-4.mp3"
+      },
+      {
+        "id": "151",
+        "image": "../images/podcasts/english.jpg",
+        "title": "Speak English Today",
+        "description": "Hi English learners! Welcome to SET (Speak English Today), a weekly podcast where we have a 15-minute (or so) conversation. Each episode, we will dive into an interesting topic, whether it’s talking about cultures, exploring current issues, or interviewing guest stars. Hope you find our podcast useful for improving your English skills. If this is your first time listening to us, and you like our show, please leave a comment and follow. With Love, Gio and Kiky.",
+        "url": "../audio/SoundHelix-Song-5.mp3"
+      },
+      {
+        "id": "161",
+        "image": "../images/podcasts/reksadana.jpg",
+        "title": "Belajar Saham & Reksadana",
+        "description": "Untuk mencapai tujuan keuangan, tentu kita butuh cara dan instrumennya. Kalau kamu mulai dari uang kecil, coba deh mulai investasi di reksadana dan saham.",
+        "url": "../audio/SoundHelix-Song-6.mp3"
+      },
+      {
+        "id": "171",
+        "image": "../images/podcasts/rintik.jpg",
+        "title": "Rintik Sedu",
+        "description": "a friend who tell stories. why? because there are many things that must be okay"
+      },
+      {
+        "id": "181",
+        "image": "../images/podcasts/doyousee.jpg",
+        "title": "Do You See What I See?",
+        "description": "Kumpulan Cerita Horor True Story. Kurasi cerita oleh @mizter.popo. Follow & kirim pesan ke Instagram @podcasthoror.id untuk diskusi dan berbagi kisah / pengalaman horor kalian."
+      },
+      {
+        "id": "191",
+        "image": "../images/podcasts/kliwon.jpg",
+        "title": "Podcast Malam Kliwon",
+        "description": "Dalam podcast ini, Bimo dan Dhanu mengulas segala hal yang erat kaitannya dengan dunia mistis. Kami juga membacakan pengalaman-pengalaman mistis kiriman dari Teman Kliwon. Ikuti kanal media sosial kami di @podcastmalamkliwon."
+      },
+      {
+        "id": "122",
+        "image": "../images/podcasts/waktu.jpg",
+        "title": "Kita dan Waktu",
+        "description": "Di sini, semua tersimpan abadi via suara. Tentang kisah kita dan waktu yang berperan mendewasakan, kita tumbuh meski tak utuh. | Sebuah karya tulisan oleh @helobagas — selamat mendengarkan :)"
+      },
+      {
+        "id": "123",
+        "image": "../images/podcasts/rapot.jpg",
+        "title": "Rapot",
+        "description": "@rezachandika, @ankatama, @radhini_ dan @nastashabigail bukan geng nero, anti cuap sembrono. Obrolan hari-hari standar, sengaja direkam untuk disebar, wkwk. Bukan bermaksud mistis, tapi #BagiRapot setiap hari Kamis."
+      },
+      {
+        "id": "124",
+        "image": "../images/podcasts/goodbye.jpg",
+        "title": "Hello Goodbye",
+        "description": "Hello Goodbye adalah podcast drama adaptasi dari sebuah buku berjudul sama, berisikan cerita-cerita pendek mengenai perpisahan dan pertemuan."
+      }
+
+]
