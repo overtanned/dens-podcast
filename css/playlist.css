@@ -1,11 +1,25 @@
+#playlist .podcast-info {
+    font-size: 0.9em;
+}
+
+#playlist .btn-playlist {
+    background: #fff;
+    color: #141518;
+    border-radius: 3px;
+}
+
 #playlist-items {
     clear: both;
     margin-top: 50px;
 }
 
 #playlist-items .title {
-    font-size: 1.1em;
-    font-weight: bold;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#playlist-items .desc {
+    font-size: 0.9em;
 }
 
 #playlist-items .play-button {
@@ -14,10 +28,11 @@
     margin: 0 auto;
 }
 
-#playlist-items [class^="playlist-item-"] {
+#playlist-items [class^="episode-"] {
     border-bottom: 1px solid #36373A;
   }
 
-  #playlist-items [class^="playlist-item-"]:hover {
+  #playlist-items [class^="episode-"]:hover {
     background: #36373A;
+    cursor: pointer;
   }

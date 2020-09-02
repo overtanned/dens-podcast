@@ -1,0 +1,171 @@
+[
+      {
+        "podcast_id": "111",
+        "category_id": "1",
+        "podcast_category": "News",
+        "podcast_image": "../images/podcasts/bbc.jpg",
+        "podcast_title": "Global News Podcast",
+        "podcast_description": "The day’s top stories from BBC News. Delivered twice a day on weekdays, daily at weekends",
+        "podcast_author": "BBC World Service",
+        "podcast_playlist": [
+          {
+              "episode_id": "111a",
+              "episode_title": "US election: Biden accuses 'weak' Trump of stoking violence",
+              "episode_description": "The Democratic Party's candidate for the US presidency Joe Biden has challenged President Trump on law and order, asking voters if they feel safe with a leader who can’t control his supporters. Also: Australia says China has detained a prominent journalist without charge, and new figures show the Indian economy has been devastated by the pandemic.",
+              "episode_file": "../audio/SoundHelix-Song-1.mp3"
+            },
+            {
+              "episode_id": "111b",
+              "episode_title": "Historic Israeli flight arrives in UAE",
+              "episode_description": "The direct flight marks a major step in normalising ties between Israel and the Gulf Arab country. Also: Sudan 'on road to peace' after a deal is signed, and artificial intelligence is being trialled in Australia to improve the safety of female travellers at night.",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            },
+            {
+              "episode_id": "111c",
+              "episode_title": "Belarus: Mass rally keeps pressure on Lukashenko",
+              "episode_description": "Tens of thousands again take to the streets in Belarus to protest against President Alexander Lukashenko. Also: the Israeli Prime Minister, Benjamin Netanyahu, says there have been unpublicised talks with many more Arab countries about improving ties. And India and Russia declared joint winners at Chess Olympiad.",
+              "episode_file": "../audio/SoundHelix-Song-3.mp3"
+            },
+            {
+              "episode_id": "111d",
+              "episode_title": "Belarus: Journalists covering protests stripped of accreditation",
+              "episode_description": "Several thousand women in Belarus have rallied in central Minsk for a “March of Solidarity”, urging President Lukashenko and the government to resign. Also: German police have arrested hundreds of people demonstrating in Berlin against coronavirus restrictions, and hundreds of migrants are rescued from a ship funded by the British graffiti artist Banksy.",
+              "episode_file": "../audio/SoundHelix-Song-4.mp3"
+            }
+        ]        
+      },
+      {
+        "podcast_id": "121",
+        "podcast_image": "../images/podcasts/pord.png",
+        "podcast_title": "Podcast Raditya Dika",
+        "podcast_author": "Raditya Dika",
+        "podcast_description": "Podcast milik Raditya Dika dengan tema obrolan tentang keuangan, keluarga, industri kreatif, dan hal-hal di antaranya. Episode baru seminggu sekali.",
+        "podcast_playlist": [
+          {
+              "episode_id": "121a",
+              "episode_title": "Stand Up Comedy yang Tertunda",
+              "episode_description": "Pandji Pragiwaksono adalah seorang Stand Up Comedian.",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            },
+            {
+              "episode_id": "121b",
+              "episode_title": "Pernikahan di Tengah Pandemi (Ft. Melaney Ricardo)",
+              "episode_description": "Melaney Ricardo adalah seorang entertainer.",
+              "episode_file": "../audio/SoundHelix-Song-3.mp3"
+            },
+            {
+              "episode_id": "121c",
+              "episode_title": "Menjaga Kewarasan Selama di Rumah Aja (Ft. Chandra Liow)",
+              "episode_description": "Chandra Liow adalah seorang Youtuber dan Sutradara.",
+              "episode_file": "../audio/SoundHelix-Song-4.mp3"
+            },
+            {
+              "episode_id": "121d",
+              "episode_title": "Masa Depan E-Sport (Ft. Shinta Bubu)",
+              "episode_description": "Shinta Dhanuwardoyo (Shinta Bubu) adalah pengusaha Indonesia, pegiat digital, angel investor, pendiri Nusantara Venture dan bubu.com.",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            }
+        ]
+      },
+      {
+        "podcast_id": "131",
+        "category_id": "5",
+        "podcast_category": "Technology",
+        "podcast_image": "../images/podcasts/ted.png",
+        "podcast_title": "TED Talks Daily",
+        "podcast_author": "TED",
+        "podcast_description": "Every weekday, TED Talks Daily brings you the latest talks in audio. Join host and journalist Elise Hu for thought-provoking ideas on every subject imaginable — from Artificial Intelligence to Zoology, and everything in between — given by the world's leading thinkers and creators. With TED Talks Daily, find some space in your day to change your perspectives, ignite your curiosity, and learn something new.",
+        "podcast_playlist": [
+          {
+              "episode_id": "131a",
+              "episode_title": "Why specializing early doesn't always mean career success | David Epstein",
+              "episode_description": "A head start doesn't always ... well, help you get ahead. With examples from sports, technology and economics, journalist David Epstein shares how specializing in a particular skill too early in life may undermine your long-term development -- and explains the benefits of a sampling period where you try new things and focus on building a range of skills. Learn how this broader, counterintuitive mindset (and more forgiving timeline) could lead to a more fulfilling life, personally and professionally.",
+              "episode_file": "../audio/SoundHelix-Song-3.mp3"
+            },
+            {
+              "episode_id": "131b",
+              "episode_title": "Historic Israeli flight arrives in UAE",
+              "episode_description": "The direct flight marks a major step in normalising ties between Israel and the Gulf Arab country. Also: Sudan 'on road to peace' after a deal is signed, and artificial intelligence is being trialled in Australia to improve the safety of female travellers at night.",
+              "episode_file": "../audio/SoundHelix-Song-4.mp3"
+            },
+            {
+              "episode_id": "131c",
+              "episode_title": "Belarus: Mass rally keeps pressure on Lukashenko",
+              "episode_description": "Tens of thousands again take to the streets in Belarus to protest against President Alexander Lukashenko. Also: the Israeli Prime Minister, Benjamin Netanyahu, says there have been unpublicised talks with many more Arab countries about improving ties. And India and Russia declared joint winners at Chess Olympiad.",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            }
+        ]
+      },
+      {
+        "podcast_id": "141",
+        "podcast_image": "../images/podcasts/jawa.jpg",
+        "podcast_title": "Podcast Jawa",
+        "podcast_description": "Podcast ini akan berbahasa campuran antara bahasa Indonesia dan Jawa. Jadi tidak 100% full bahasa Jawa. Selamat menikmati. Sugeng mirengke podcast niki lurr!",
+        "podcast_url": "../audio/SoundHelix-Song-4.mp3"
+      },
+      {
+        "podcast_id": "151",
+        "podcast_image": "../images/podcasts/english.jpg",
+        "podcast_title": "Speak English Today",
+        "podcast_description": "Hi English learners! Welcome to SET (Speak English Today), a weekly podcast where we have a 15-minute (or so) conversation. Each episode, we will dive into an interesting topic, whether it’s talking about cultures, exploring current issues, or interviewing guest stars. Hope you find our podcast useful for improving your English skills. If this is your first time listening to us, and you like our show, please leave a comment and follow. With Love, Gio and Kiky.",
+        "podcast_url": "../audio/SoundHelix-Song-5.mp3"
+      },
+      {
+        "podcast_id": "161",
+        "category_id": "7",
+        "podcast_category": "Business",
+        "podcast_image": "../images/podcasts/reksadana.jpg",
+        "podcast_title": "Belajar Saham & Reksadana",
+        "podcast_description": "Untuk mencapai tujuan keuangan, tentu kita butuh cara dan instrumennya. Kalau kamu mulai dari uang kecil, coba deh mulai investasi di reksadana dan saham.",
+        "podcast_url": "../audio/SoundHelix-Song-6.mp3"
+      },
+      {
+        "podcast_id": "171",
+        "podcast_image": "../images/podcasts/rintik.jpg",
+        "podcast_title": "Rintik Sedu",
+        "podcast_description": "a friend who tell stories. why? because there are many things that must be okay"
+      },
+      {
+        "podcast_id": "181",
+        "category_id": "6",
+        "podcast_category": "Horror",
+        "subcategory_id": "7",
+        "podcast_subcategory": "International",
+        "podcast_image": "../images/podcasts/doyousee.jpg",
+        "podcast_title": "Do You See What I See?",
+        "podcast_description": "Kumpulan Cerita Horor True Story. Kurasi cerita oleh @mizter.popo. Follow & kirim pesan ke Instagram @podcasthoror.id untuk diskusi dan berbagi kisah / pengalaman horor kalian."
+      },
+      {
+        "podcast_id": "191",
+        "category_id": "6",
+        "podcast_category": "Horror",
+        "subcategory_id": "6",
+        "podcast_subcategory": "Local",
+        "podcast_image": "../images/podcasts/kliwon.jpg",
+        "podcast_title": "Podcast Malam Kliwon",
+        "podcast_description": "Dalam podcast ini, Bimo dan Dhanu mengulas segala hal yang erat kaitannya dengan dunia mistis. Kami juga membacakan pengalaman-pengalaman mistis kiriman dari Teman Kliwon. Ikuti kanal media sosial kami di @podcastmalamkliwon."
+      },
+      {
+        "podcast_id": "122",
+        "category_id": "6",
+        "podcast_category": "Horror",
+        "subcategory_id": "7",
+        "podcast_subcategory": "International",
+        "podcast_image": "../images/podcasts/waktu.jpg",
+        "podcast_title": "Kita dan Waktu",
+        "podcast_description": "Di sini, semua tersimpan abadi via suara. Tentang kisah kita dan waktu yang berperan mendewasakan, kita tumbuh meski tak utuh. | Sebuah karya tulisan oleh @helobagas — selamat mendengarkan :)"
+      },
+      {
+        "podcast_id": "123",
+        "podcast_image": "../images/podcasts/rapot.jpg",
+        "podcast_title": "Rapot",
+        "podcast_description": "@rezachandika, @ankatama, @radhini_ dan @nastashabigail bukan geng nero, anti cuap sembrono. Obrolan hari-hari standar, sengaja direkam untuk disebar, wkwk. Bukan bermaksud mistis, tapi #BagiRapot setiap hari Kamis."
+      },
+      {
+        "podcast_id": "124",
+        "podcast_image": "../images/podcasts/goodbye.jpg",
+        "podcast_title": "Hello Goodbye",
+        "podcast_description": "Hello Goodbye adalah podcast drama adaptasi dari sebuah buku berjudul sama, berisikan cerita-cerita pendek mengenai perpisahan dan pertemuan."
+      }
+
+]

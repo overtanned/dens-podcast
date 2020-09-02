@@ -1,25 +1,28 @@
 // Player
-function player(id) {
+function player(podcast_id) {
 
-  $.get( "../data/channels.json", function( data ) {
-    var result = data.filter(x => x.id === id);
+  $.get( "../data/podcasts.json", function( data ) {
+    var result = data.filter(x => x.podcast_id === podcast_id);
 
-    var title = result[0].title;
-    var image = result[0].image;
-    var desc = result[0].description;
+    var podcast_title = result[0].podcast_title;
+    var podcast_image = result[0].podcast_image;
+    var podcast_desc = result[0].podcast_description.slice(0,50);
+    var podcast_file = result[0].podcast_playlist[0].episode_file;
 
   $( "#player" ).show().html(`
   <div class="container-fluid">
     <div class="row row-eq-height">
       <div class="col-md-1">
-        <img src=${image} class="img-responsive" alt="">
+        <img src=${podcast_image} class="img-responsive" alt="">
       </div>
       <div class="col-md-2">
-        <h6>${title}</h6>
-        <p>${desc.slice(0,50)}</p>
+        <h6>${podcast_title}</h6>
+        <p>${podcast_desc}</p>
       </div>
       <div id="player-container"class="col-md-6 text-center">
-        <audio id="podcast-player" ontimeupdate="initProgressBar()"></audio>
+        <audio id="podcast-player" ontimeupdate="initProgressBar()">
+          <source src=${podcast_file} type="audio/mp3">
+        </audio>
 
         <div class="player-controls"> 
           <img src="../images/icons/pause.svg" class="pause" onclick="pause()" alt="">
@@ -57,15 +60,6 @@ function player(id) {
     </div>
   </div>
   </div>`);    
-
-  $.get( "../data/playlist.json", function( data ) {
-    var result = data.filter(y => y.id === id);
-    var file = result[0].playlist[0].file;
-
-    $('#podcast-player').append(`
-      <source src=${file} type="audio/mp3">
-    `);
-  })
 
   stopAllAudio(); // stop all other audio before playing a new one
   play();

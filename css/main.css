@@ -20,6 +20,15 @@ body {
     margin: 10px 0;
 }
 
+/* Dummy Footer */
+#dummy-footer {
+    margin-top: 50px;
+    background: #141518;
+    color: #fff;
+    height: 60px;
+}
+/* Dummy Footer */
+
 /* Helper Class */
 .row-eq-height {
     display: flex;
@@ -30,5 +39,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.nopadding {
+    padding: 0;
 }
 /* Helper Class */

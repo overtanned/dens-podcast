@@ -4,30 +4,27 @@
     width: 1400px;
 }
 
-#podcast .channel h6 {
-    font-size: 1.25em;
-    margin-bottom: 15px;
+#podcast .info h6 {
+    margin-bottom: 7px;
+    font-size: 1em;
 }
 
-#podcast .channel h6 a {
+#podcast .info p {
+    font-size: 0.9em;
+}
+
+#podcast .info {
     color: #ffffff;
+    cursor: pointer;
+    display: block;
 }
 
-#podcast .channel h6 a:hover {
+#podcast .info:hover {
     color: #E6C515;
     text-decoration: none;
 }
 
-#podcast .channel h6 a:active, #podcast .channel h6 a:visited {
-    text-decoration: none;
-}
-
-#podcast .channel a {
-    color: #ffffff;
-}
-
-#podcast .channel a:hover {
-    color: #ffffff;
+#podcast .info:active, #podcast .info:visited {
     text-decoration: none;
 }
 
@@ -47,6 +44,39 @@
 
 /* Podcast Reccomendation */
 
+/* Owl Carousel */
+#podcast .owl-prev, #podcast .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block !important;
+    border:0px solid black;
+}
+#podcast .owl-prev { 
+    left: -37px; 
+}
+
+#podcast .owl-next { 
+    right: -37px; 
+}
+
+#podcast .owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: #E6C515;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#podcast .owl-next i, #podcast .owl-prev i {
+    font-size: 3.5em;
+}
+
+#podcast .owl-next:focus, #podcast .owl-prev:focus {
+    outline: none;
+}
+
+/* Owl Carousel */
+
 #podcast hr {
     border-top: 1px solid #555;
 }
@@ -59,7 +89,7 @@
 
 #podcast > #categories .item > .menu {
     color: #ffffff;
-    font-size: 1.2em;
+    font-size: 1em;
     text-decoration: none;
     background-color: #31343D;
     background-image: url('../images/icons/arrow.png');
@@ -84,7 +114,4 @@
 #podcast > #categories .item > .menu > .icon {
     margin-right: 10px;
 }
-
-
-
 /* Podcast Categories */
