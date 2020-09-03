@@ -1,3 +1,6 @@
+
+
+
 // if a Category is Clicked
 function category(category_id, category_title) {
 
@@ -43,4 +46,7 @@ function category(category_id, category_title) {
         })
     })
   }
-  
+
+  function backToHomepage() {
+    location.reload(true);
+  }  

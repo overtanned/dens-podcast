@@ -36,6 +36,8 @@
       },
       {
         "podcast_id": "121",
+        "category_id": "11",
+        "podcast_category": "Stories",
         "podcast_image": "../images/podcasts/pord.png",
         "podcast_title": "Podcast Raditya Dika",
         "podcast_author": "Raditya Dika",
@@ -69,8 +71,8 @@
       },
       {
         "podcast_id": "131",
-        "category_id": "5",
-        "podcast_category": "Technology",
+        "category_id": "4",
+        "podcast_category": "Education",
         "podcast_image": "../images/podcasts/ted.png",
         "podcast_title": "TED Talks Daily",
         "podcast_author": "TED",
@@ -98,74 +100,549 @@
       },
       {
         "podcast_id": "141",
+        "category_id": "11",
+        "podcast_category": "Stories",
+        "podcast_author": "Wahyu Aji Pamungkas",
         "podcast_image": "../images/podcasts/jawa.jpg",
         "podcast_title": "Podcast Jawa",
         "podcast_description": "Podcast ini akan berbahasa campuran antara bahasa Indonesia dan Jawa. Jadi tidak 100% full bahasa Jawa. Selamat menikmati. Sugeng mirengke podcast niki lurr!",
-        "podcast_url": "../audio/SoundHelix-Song-4.mp3"
+        "podcast_playlist": [
+          {
+              "episode_id": "141a",
+              "episode_title": "Nyanyi nyenengke ati (Nyanyi menghibur hati)",
+              "episode_description": "Nyanyi pas wengi nyenengke ati",
+              "episode_file": "../audio/SoundHelix-Song-4.mp3"
+            },
+            {
+              "episode_id": "141b",
+              "episode_title": "Podcast Jawa (Trailer)",
+              "episode_description": "",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            }
+        ]
       },
       {
         "podcast_id": "151",
+        "category_id": "4",
+        "podcast_category": "Education",
+        "podcast_author": "English Today",
         "podcast_image": "../images/podcasts/english.jpg",
         "podcast_title": "Speak English Today",
         "podcast_description": "Hi English learners! Welcome to SET (Speak English Today), a weekly podcast where we have a 15-minute (or so) conversation. Each episode, we will dive into an interesting topic, whether it’s talking about cultures, exploring current issues, or interviewing guest stars. Hope you find our podcast useful for improving your English skills. If this is your first time listening to us, and you like our show, please leave a comment and follow. With Love, Gio and Kiky.",
-        "podcast_url": "../audio/SoundHelix-Song-5.mp3"
+        "podcast_playlist": [
+          {
+              "episode_id": "151a",
+              "episode_title": "[Greens and Beans] Geographical Origins of Fruits",
+              "episode_description": "Do you remember the last time you bit into your favourite fruits? What were they? Mango? Papaya? Orange? If someone asked where those fruits come from, would you be able to answer? No, we don't mean from your refrigerator or the supermarket. We mean the origin of those fruits. We eat so many fruits yet we might not be able to explain their roots. To help you better understand your favourite fruits, we've put together a list of fruits and their origins.",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            },
+            {
+              "episode_id": "151b",
+              "episode_title": "[Adulting] Good cop, bad cop parenting may not be the best idea",
+              "episode_description": "Parenting is challenging and every parent has their own parenting styles. Some parents agree to be on the same page while others prefer to use the good cop, bad cop parenting. What is a good cop, bad cop parenting? It is when you and your spouse take opposing roles when dealing with your children. For example, when the child refuses to have his/her breakfast, the mother chooses to be the enforcer and discipline the child. On the other hand, the husband presents himself as a good parent who is a sympathizer, allowing the child to not have his/her meal. However, according to some sources, this parenting style may harm the child. In what ways does this style have a negative effect on the child? ",
+              "episode_file": "../audio/SoundHelix-Song-6.mp3"
+            },
+            {
+              "episode_id": "151c",
+              "episode_title": "[Global Village] Surviving Valentine's Day",
+              "episode_description": "Valentine's Day is just around the corner. For those of you who are in a relationship, you can expect candlelight dinners and roses. But do you have no one to celebrate it with? Don't worry, we're all in the same boat and we believe that it shouldn't stop you from expressing love, wishing others happiness, and sending them warm fuzzy feelings--in any type of form. Here's our guide to surviving Valentine's Day.",
+              "episode_file": "../audio/SoundHelix-Song-1.mp3"
+            },
+            {
+              "episode_id": "151d",
+              "episode_title": "[Money Talk] Use these words on your next job interview",
+              "episode_description": "According to the CEO and founder of Betts Recruiting, a US recruitment firm, you should have a clear pitch when being asked to tell more about yourselves during a job interview. What are the important phrases you should say to land your dream job?",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            }
+        ]
       },
       {
         "podcast_id": "161",
         "category_id": "7",
         "podcast_category": "Business",
+        "podcast_author": "Yossy Girsang",
         "podcast_image": "../images/podcasts/reksadana.jpg",
         "podcast_title": "Belajar Saham & Reksadana",
         "podcast_description": "Untuk mencapai tujuan keuangan, tentu kita butuh cara dan instrumennya. Kalau kamu mulai dari uang kecil, coba deh mulai investasi di reksadana dan saham.",
-        "podcast_url": "../audio/SoundHelix-Song-6.mp3"
+        "podcast_playlist": [
+          {
+              "episode_id": "161a",
+              "episode_title": "Mengapa Hanya 1% Orang Indonesia Kenal Saham?",
+              "episode_description": "Harga saham Apple Inc atau AAPL pada perdagangan jumat tanggal 21 Agustus ditutup 498 dolar AS, dimana pada harga ini maka kapitalisasi pasar dari Apple telah tembus 2,1 triliun dolar AS atau Rp 30.800 triliun. Angka ini bahkan lebih besar dua kali lipat dibanding Produk Domestik Bruto Indonesia (PDB) yang Rp 15.000 triliun.",
+              "episode_file": "../audio/SoundHelix-Song-6.mp3"
+            },
+            {
+              "episode_id": "161b",
+              "episode_title": "Benarkah Kimia Farma dan Indofarma Untung Besar dari Vaksin C-19?",
+              "episode_description": "Dalam sebulan terakhir, harga saham perusahaan farmasi terbang sangat tinggi, sebut saja PT Indofarma Tbk (INAF) yang sudah naik 220%, lalu PT Kimia Farma Tbk (KAEF) yang naik 190%. Dalam Podcast ini, Yossy Girsang mengulas fenomena ini dengan menganalisa dampak dari sentimen positif dimana banyak Investor dan Analyst memperkirakan bahwa pendapatan dari INAF dan KAEF akan naik signifikan ketika kedua perusahaan BUMN ini mulai mendistribusikan vaksin virus corona ke berbagai daerah di Indonesia yang diproduksi oleh Holding BUMN Farmasi PT Biofarma.",
+              "episode_file": "../audio/SoundHelix-Song-1.mp3"
+            },
+            {
+              "episode_id": "161c",
+              "episode_title": "Strategi Bertahan dan Menyerang Hadapi Resesi Ekonomi",
+              "episode_description": "Tips Keuangan bagaimana mempersiapkan diri dan keluarga ketika nantinya Indonesia masuk masa Resesi Ekonomi",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            },
+            {
+              "episode_id": "161d",
+              "episode_title": "Eksklusif Interview: Staf Khusus Menteri Keuangan RI, Yustinus Prastowo",
+              "episode_description": "Strategi Indonesia Menghadapi Resesi Ekonomi. Kapan Indonesia akan pulih kembali? Simak detailnya pada podcast ini bersama Yossy Girsang. Salam Investasi.",
+              "episode_file": "../audio/SoundHelix-Song-3.mp3"
+            }
+        ]
       },
       {
         "podcast_id": "171",
+        "category_id": "11",
+        "podcast_category": "Stories",
+        "podcast_author": "Rintiksedu",
         "podcast_image": "../images/podcasts/rintik.jpg",
         "podcast_title": "Rintik Sedu",
-        "podcast_description": "a friend who tell stories. why? because there are many things that must be okay"
+        "podcast_description": "a friend who tell stories. why? because there are many things that must be okay",
+        "podcast_playlist": [
+            {
+                "episode_id": "171a",
+                "episode_title": "selamat hari sedih sedunia",
+                "episode_description": "dulu gw pikir kalimat 'the only thing matters is your happiness' adalah kalimat terklise di dunia, until i understand why some people love someone by letting them go",
+                "episode_file": "../audio/SoundHelix-Song-3.mp3"
+              },
+              {
+                "episode_id": "171b",
+                "episode_title": "Kotak Pos Eps. 03",
+                "episode_description": "Istirahat sih...",
+                "episode_file": "../audio/SoundHelix-Song-4.mp3"
+              },
+              {
+                "episode_id": "171c",
+                "episode_title": "ya udah mau gimana lagi",
+                "episode_description": "dicoba, ya? dicoba untuk nggak selalu bergantung dengan rasa senang",
+                "episode_file": "../audio/SoundHelix-Song-5.mp3"
+              },
+              {
+                "episode_id": "171d",
+                "episode_title": "di atas kapal",
+                "episode_description": "gapapa, mungkin beberapa jarak diciptakan Tuhan bukan untuk ditempuh, tapi untuk dibiarkan. dibiarkan tetap jauh.",
+                "episode_file": "../audio/SoundHelix-Song-6.mp3"
+              }
+          ]        
       },
       {
         "podcast_id": "181",
         "category_id": "6",
         "podcast_category": "Horror",
-        "subcategory_id": "7",
-        "podcast_subcategory": "International",
+        "podcast_author": "Cerita Horor True Story",
         "podcast_image": "../images/podcasts/doyousee.jpg",
         "podcast_title": "Do You See What I See?",
-        "podcast_description": "Kumpulan Cerita Horor True Story. Kurasi cerita oleh @mizter.popo. Follow & kirim pesan ke Instagram @podcasthoror.id untuk diskusi dan berbagi kisah / pengalaman horor kalian."
+        "podcast_description": "Kumpulan Cerita Horor True Story. Kurasi cerita oleh @mizter.popo. Follow & kirim pesan ke Instagram @podcasthoror.id untuk diskusi dan berbagi kisah / pengalaman horor kalian.",
+        "podcast_playlist": [
+          {
+              "episode_id": "181a",
+              "episode_title": "Katarak",
+              "episode_description": "cerita dari @cessy_physio",
+              "episode_file": "../audio/SoundHelix-Song-4.mp3"
+            },
+            {
+              "episode_id": "181b",
+              "episode_title": "Boneka Belanda",
+              "episode_description": "Cerita dari @shaaaffaaa",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            },
+            {
+              "episode_id": "181c",
+              "episode_title": "Ibu",
+              "episode_description": "Cerita ditulis dan dinarasikan oleh @patricia.wulandari dalam segmen kolaborasi bersama Podcast Main Mata",
+              "episode_file": "../audio/SoundHelix-Song-6.mp3"
+            },
+            {
+              "episode_id": "181d",
+              "episode_title": "Diam-diam Datang",
+              "episode_description": "Cerita dari @irmawidiantikarinaputri dan dinarasikan oleh @devianviana dalam segmen kolaborasi bersama Podcast Main Mata",
+              "episode_file": "../audio/SoundHelix-Song-1.mp3"
+            }
+        ]         
       },
       {
         "podcast_id": "191",
         "category_id": "6",
         "podcast_category": "Horror",
-        "subcategory_id": "6",
-        "podcast_subcategory": "Local",
+        "podcast_author": "Ramadhanu Rizkinuriza",
         "podcast_image": "../images/podcasts/kliwon.jpg",
         "podcast_title": "Podcast Malam Kliwon",
-        "podcast_description": "Dalam podcast ini, Bimo dan Dhanu mengulas segala hal yang erat kaitannya dengan dunia mistis. Kami juga membacakan pengalaman-pengalaman mistis kiriman dari Teman Kliwon. Ikuti kanal media sosial kami di @podcastmalamkliwon."
+        "podcast_description": "Dalam podcast ini, Bimo dan Dhanu mengulas segala hal yang erat kaitannya dengan dunia mistis. Kami juga membacakan pengalaman-pengalaman mistis kiriman dari Teman Kliwon. Ikuti kanal media sosial kami di @podcastmalamkliwon.",
+        "podcast_playlist": [
+          {
+              "episode_id": "191a",
+              "episode_title": "Kuntilanak Itu Bernama 'Mbak Legi'",
+              "episode_description": "Jumpa lagi di udara bersama Bimo dan Dhanu. Salah satu cerita terseram yang pernah kami baca, datang dari pengalaman seorang Teman Kliwon saat ia masih menginjak bangku SMP. Selamat mendengarkan, tabik.",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            },
+            {
+              "episode_id": "191b",
+              "episode_title": "Bercak Darah Misterius di Mall Jakarta Pusat",
+              "episode_description": "Halo, kembali bersama Podcast Malam Kliwon. Capek juga bikin deskripsi, mending langsung dengerin aja ya. Selamat mendengarkan, tabik.",
+              "episode_file": "../audio/SoundHelix-Song-6.mp3"
+            },
+            {
+              "episode_id": "191c",
+              "episode_title": "Kisah Mistis Guru Sekolah Jembrana, Bali",
+              "episode_description": "Kembali lagi bersama Bimo dan Dhanu di Podcast Malam Kliwon. Kali ini, cerita berdatangan dari sebuah sekolah di Jembrana, salon keluarga yang diguna-guna hingga setahun lamanya, hingga pengalaman mistis saat orientasi kampus di Kalimantan. Selamat mendengarkan, tabik.",
+              "episode_file": "../audio/SoundHelix-Song-1.mp3"
+            },
+            {
+              "episode_id": "191d",
+              "episode_title": "Hancurnya Penampakan Dua Korban Kecelakaan, Batujajar, Bandung",
+              "episode_description": "Kali ini cerita datang dari Batujajar, salah satu kota perbatasan Jawa Tengah dan Jawa Timur, hingga seramnya wilayah bekas konflik di Kalimantan. Selamat mendengarkan, tabik.",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            }
+        ]  
       },
       {
         "podcast_id": "122",
-        "category_id": "6",
-        "podcast_category": "Horror",
-        "subcategory_id": "7",
-        "podcast_subcategory": "International",
+        "category_id": "11",
+        "podcast_category": "Stories",
+        "podcast_author": "helobagas",
         "podcast_image": "../images/podcasts/waktu.jpg",
         "podcast_title": "Kita dan Waktu",
-        "podcast_description": "Di sini, semua tersimpan abadi via suara. Tentang kisah kita dan waktu yang berperan mendewasakan, kita tumbuh meski tak utuh. | Sebuah karya tulisan oleh @helobagas — selamat mendengarkan :)"
+        "podcast_description": "Di sini, semua tersimpan abadi via suara. Tentang kisah kita dan waktu yang berperan mendewasakan, kita tumbuh meski tak utuh. | Sebuah karya tulisan oleh @helobagas — selamat mendengarkan :)",
+        "podcast_playlist": [
+          {
+              "episode_id": "191a",
+              "episode_title": "Bukan aku yang kehilangan kamu, tapi kamu yang kehilangan aku",
+              "episode_description": "Karena dari semua rasa sakit ini, satu hal yang perlu kamu tahu, ‘karma’ masih berlaku.",
+              "episode_file": "../audio/SoundHelix-Song-6.mp3"
+            },
+            {
+              "episode_id": "191b",
+              "episode_title": "Definisi pertemanan yang indah (Part 2)",
+              "episode_description": "Di sini; kita bicara tentang support system. Karena pertemanan itu, akan secara tidak langsung men-direct kemana kita akan bermuara. Kemana kita akan terbang dan mengepakan sayap. Bersama gue, kita mengudara buat membahas tentang salah satu tema #SelfHelp ini",
+              "episode_file": "../audio/SoundHelix-Song-1.mp3"
+            },
+            {
+              "episode_id": "191c",
+              "episode_title": "Cara keluar dari TOXIC FRIENDSHIP? (Part 1)",
+              "episode_description": "Tentang rasa takut, takut kalau ‘sendiri’ yang membuat kamu justru mau tidak mau, berteman dengan mereka yang justru perlahan merusak dan membuat dirimu semakin hilang. Ingin berlari, ingin keluar, namun bingung bermula dari mana? Di sini, kita bicara tentang bagaimana caranya keluar dari belenggu pertemanan yang tidak sehat. Selamat mendengar!",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            },
+            {
+              "episode_id": "191d",
+              "episode_title": "Kenapa ya, yang indah-indah cuma sebentar?",
+              "episode_description": "Karena aku seperti tertimpa kabar paling baik, namun langsung ditarik kembali. Seperti angin yang berhembus begitu cepat, aku sungguh belum benar-benar menikmati. Jujur, aku bingung.",
+              "episode_file": "../audio/SoundHelix-Song-3.mp3"
+            }
+        ]  
       },
       {
         "podcast_id": "123",
+        "category_id": "11",
+        "podcast_category": "Stories",
+        "podcast_author": "RezaAnkaRadhiniAbigail Potkes",        
         "podcast_image": "../images/podcasts/rapot.jpg",
         "podcast_title": "Rapot",
-        "podcast_description": "@rezachandika, @ankatama, @radhini_ dan @nastashabigail bukan geng nero, anti cuap sembrono. Obrolan hari-hari standar, sengaja direkam untuk disebar, wkwk. Bukan bermaksud mistis, tapi #BagiRapot setiap hari Kamis."
+        "podcast_description": "@rezachandika, @ankatama, @radhini_ dan @nastashabigail bukan geng nero, anti cuap sembrono. Obrolan hari-hari standar, sengaja direkam untuk disebar, wkwk. Bukan bermaksud mistis, tapi #BagiRapot setiap hari Kamis.",
+        "podcast_playlist": [
+          {
+              "episode_id": "123a",
+              "episode_title": "KETEMPELAN SUPERMAN",
+              "episode_description": "Abigail merasakan hal yang aneh terjadi dengan tubuhnya, tapi Mau Gak Mau Abigail tetap menjalani aktivitasnya. Dimas sempat berpikir bahwa Abigail masuk angin, tapi beberapa teman bandnya “Pandai Besi” malah merasa kalau Abigail “ketempelan makhluk halus”. Ihhhhh…",
+              "episode_file": "../audio/SoundHelix-Song-1.mp3"
+            },
+            {
+              "episode_id": "123b",
+              "episode_title": "NP: RADHINI - LELAH (TOTAL VERSION)",
+              "episode_description": "Radhini masih kalut karena ia merasa statusnya sebagai penyanyi sudah mulai luntur. Banyak yang kini lebih mengenalnya sebagai podcaster dibanding musisi. Walaupun sedang galau tapi ternyata dapat kerjaan endorse Baby Spa. Mau Gak Mau, Radhini tetap hadir penuh senyuman di Baby Spa tersebut. Tapi, apakah Radhini mendapatkan pencerahan? Atau malah mendapatkan alasan lebih untuk berhenti bernyanyi?",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            },
+            {
+              "episode_id": "123c",
+              "episode_title": "ADAKALANYA",
+              "episode_description": "Usai pertengkaran yang tak kunjung habis; Reza, Anka, Radhini, dan Abigail Mau Gak Mau sepakat untuk menunda take podcast yang biasa mereka lakukan rutin setiap minggu. Di waktu senggang tersebut keempatnya menggunakan waktu ini untuk berkumpul dengan orang-orang terdekat mereka. Sembari bernafas untuk bisa kembali mencerahkan kekeruhan yang hadir di antara mereka.",
+              "episode_file": "../audio/SoundHelix-Song-3.mp3"
+            },
+            {
+              "episode_id": "123d",
+              "episode_title": "TERUS, GUE GIMANA?",
+              "episode_description": "Reza baru saja putus, Abigail masih muring-muring karena terlalu sibuk, Anka masih berjuang mencari waktu untuk keluarganya, dan Radhini masih beradaptasi dengan menyeimbangkan kehidupan profesi dan bayi barunya. Di kala seperti ini, mereka harus hadir bersama menjadi pembicara di sebuah talkshow. Mau Gak mau, mereka harus berpura-pura “All is well”. Meski sebenarnya, “All is not well”.",
+              "episode_file": "../audio/SoundHelix-Song-4.mp3"
+            }
+        ]  
       },
       {
         "podcast_id": "124",
+        "category_id": "11",
+        "podcast_category": "Stories",
+        "podcast_author": "Box2BoxID x HelloGoodbye",
         "podcast_image": "../images/podcasts/goodbye.jpg",
         "podcast_title": "Hello Goodbye",
-        "podcast_description": "Hello Goodbye adalah podcast drama adaptasi dari sebuah buku berjudul sama, berisikan cerita-cerita pendek mengenai perpisahan dan pertemuan."
+        "podcast_description": "Hello Goodbye adalah podcast drama adaptasi dari sebuah buku berjudul sama, berisikan cerita-cerita pendek mengenai perpisahan dan pertemuan.",
+        "podcast_playlist": [
+          {
+              "episode_id": "124a",
+              "episode_title": "Behind The Scene",
+              "episode_description": "Episode bonus untuk pendengar setia Hello Goodbye dimanapun kamu berada. Sedikit obrolan penutup bareng tim dibalik layar HelloGoodbye dan pengumuman penting lainnya... Mungkinkah terkait Season 2?",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            },
+            {
+              "episode_id": "124b",
+              "episode_title": "Kampung Halaman",
+              "episode_description": "Ketika Mengejar Materi, membuat mu lupa akan hangat nya Kampung Halaman. Mungkin sekarang saatnya kita untuk pulang....",
+              "episode_file": "../audio/SoundHelix-Song-3.mp3"
+            },
+            {
+              "episode_id": "124c",
+              "episode_title": "Petrichor",
+              "episode_description": "petrichor (petrikor) merupakan aroma alami yang dihasilkan saat hujan jatuh ke tanah kering. Aroma hujan ini yang bertanggung jawab atas perasaan emosional banyak orang yang menciumnya.",
+              "episode_file": "../audio/SoundHelix-Song-4.mp3"
+            },
+            {
+              "episode_id": "124d",
+              "episode_title": "Pluto Cappucinno",
+              "episode_description": "Mengagumi seseorang layaknya pluto terhadap matahari, terlupa namun hadir, dianggap namun terbelakang, seperti kisah seorang gadis dalam perenungannya ini yang ditemani secangkir cappucinno.",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            }
+        ]        
+      },
+      {
+        "podcast_id": "125",
+        "category_id": "4",
+        "podcast_category": "Education",
+        "podcast_author": "HiMama",
+        "podcast_image": "../images/podcasts/preschool.png",
+        "podcast_title": "The Preschool Podcast",
+        "podcast_description": "The Preschool Podcast, brought to you by HiMama, is a platform for learning from leading professionals in early childhood education. If you work in a daycare, childcare or preschool setting, The Preschool Podcast will provide you with both practical advice for managing your organization, center or classroom, as well as thought provoking content and insights about the field of early childhood education.",
+        "podcast_playlist": [
+          {
+              "episode_id": "125a",
+              "episode_title": "Nature-Based Learning For Real World Skills",
+              "episode_description": "Young children are now taught to focus more on academic performance and less on play - this is a problem. In this episode, Peter Dargatz, nature kindergarten teacher, shares his passion for nature-based programs and his journey in creating one at the public school where he works. We talk about why it’s important to slow down to catch up and how to go back to the basics to set our next generation up for success.",
+              "episode_file": "../audio/SoundHelix-Song-3.mp3"
+            },
+            {
+              "episode_id": "125b",
+              "episode_title": "What If We Taught The Way Children Learn?",
+              "episode_description": "The COVID-19 pandemic has left a lot of educators and parents in lurch when it comes to early learning. In this episode, we chat with Rae Pica, about her new book, What If We Taught the Way Children Learn? We talk about coming back to the basics, the factors that motivate children to learn, and why it’s important not to lose sight of having fun when working with young children. ",
+              "episode_file": "../audio/SoundHelix-Song-4.mp3"
+            },
+            {
+              "episode_id": "125c",
+              "episode_title": "Teaching Race & Inclusion In Child Care",
+              "episode_description": "Teaching about race starts in child care. As a leader in ECE, you are in a unique position to be a resource for your staff, the parents that you support, and the children in your care. In this episode, we interview Re’Shaun Webb, Founder of Rainbow Institute of Childcare Education, about different strategies to educate all the stakeholders that are part of her center’s social ecosystem. She shares her tips and advice on how to create a safe and racially inclusive space for everyone to learn in.",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            },
+            {
+              "episode_id": "125d",
+              "episode_title": "Alternative Care & COVID-19",
+              "episode_description": "COVID-19 has put a lot of independent child care owners in a problematic position. In this episode, we talk to Amanda Munday, CEO and Founder of The Workaround, a co-working space that also offers quality child care. She talks about the challenges she's facing with reopening her business and the financial reality of running a child care business during the pandemic.",
+              "episode_file": "../audio/SoundHelix-Song-6.mp3"
+            }
+        ]        
+      },
+      {
+        "podcast_id": "126",
+        "category_id": "4",
+        "podcast_category": "Education",
+        "podcast_author": "Teach Me, Teacher LLC",
+        "podcast_image": "../images/podcasts/teacher.jpg",
+        "podcast_title": "Teach Me, Teacher",
+        "podcast_description": "Teach Me, Teacher is a podcast for educators where teachers discuss topical, informative, and inspiring subjects. Designed from the ground up as a no nonsense approach to teacher development, this podcast is your gateway to bettering your craft (and having some laughs along the way). Our podcast is fueled by the idea that teachers learn best from other teachers IN the classroom. Every episode will be filled with real world discussions about what it is like in classrooms today, and how to manage, develop, and prosper in this new world of education. See you in the classroom!",
+        "podcast_playlist": [
+          {
+              "episode_id": "126a",
+              "episode_title": "Powerful Literacy Practices During Covid Era Teaching with Jennifer Serravallo (pt.1)",
+              "episode_description": "Hello everyone! Welcome to season 5! I love starting every season off with a massive literacy focused episode. Season 2 began with my talk with Donalyn Miller. Season 3 started with my talk with Penny Kittle. Season 4 started with my talk with Kelly Gallagher. And for season 5, I have brought on yet another one of my teaching idols, Jennifer Serravallo, to discuss powerful literacy practices to focus on during covid era teaching!",
+              "episode_file": "../audio/SoundHelix-Song-4.mp3"
+            },
+            {
+              "episode_id": "126b",
+              "episode_title": "Breathe — Season 5 Intro!",
+              "episode_description": "Hello everyone! It is here! Hard to believe this podcast has been going since 2016, and it’s even harder to believe just how many teachers keep finding and supporting the show. So first off, thank you! Without you, this show would not exist the way it does today.",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            },
+            {
+              "episode_id": "126c",
+              "episode_title": "SUMMER BLAST FINALE – Out of the Comfort Zone with Kelli Sanders",
+              "episode_description": "Hello everyone and welcome to Teach Me, Teacher’s SUMMER BLAST of inspiration! I cannot express how excited, pumped, and inspired I am right now for next year, and I want you to join me and my AMAZING guests in our quest to bring some positivity into the teaching world.",
+              "episode_file": "../audio/SoundHelix-Song-6.mp3"
+            },
+            {
+              "episode_id": "126d",
+              "episode_title": "SUMMER BLAST #10 – Small Town Teaching with Haley Curfman",
+              "episode_description": "Hello everyone and welcome to Teach Me, Teacher’s SUMMER BLAST of inspiration! I cannot express how excited, pumped, and inspired I am right now for next year, and I want you to join me and my AMAZING guests in our quest to bring some positivity into the teaching world.",
+              "episode_file": "../audio/SoundHelix-Song-1.mp3"
+            }
+        ]        
+      },
+      {
+        "podcast_id": "127",
+        "category_id": "4",
+        "podcast_category": "Education",
+        "podcast_author": "SAN Bandung 2020",
+        "podcast_image": "../images/podcasts/daring.png",
+        "podcast_title": "Edukasi Daring",
+        "podcast_description": "Senyum Anak Nusantara (SAN), merupakan sebuah komunitas sosial berbasis volunteer. Tujuan didirikan nya SAN adalah sebagai wadah bagi para generasi muda Indonesia yang mempunyai jiwa sosial tinggi, untuk bergerak dan beraksi bersama dalam satu naungan visi misi. Sasaran utama komunitas SAN adalah anak anak. SAN mempunyai target utama untuk menyebarkan misi 3M (Memotivasi, Menginspirasi serta Mengedukasi). Podcast ini hadir untuk memberikan edukasi dan informasi terkait berita atau materi yang dibutuhkan oleh para pendengar podcast terutama kepada anak usia sekolah oleh SAN Bandung.",
+        "podcast_playlist": [
+          {
+              "episode_id": "127a",
+              "episode_title": "Tips Bagi Para Mahasiswa Baru Untuk Mengenal Dunia Perkuliahan",
+              "episode_description": "Jenjang baru setelah Sekolah Menengah Atas (SMA) yaitu dunia perkuliahan yang sering kali membuat kita merasa bingung. Apakah akan seseram yang kita pikirkan? Atau mungkin sama seperti SMA? Atau malah lebih menyenangkan?",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            },
+            {
+              "episode_id": "127b",
+              "episode_title": "Kesehatan Mental Saat Covid-19",
+              "episode_description": "Di tengah pandemi COVID-19, masyarakat diimbau untuk menjaga, tidak hanya kesehatan fisik, tetapi juga kesehatan mental.",
+              "episode_file": "../audio/SoundHelix-Song-6.mp3"
+            },
+            {
+              "episode_id": "127c",
+              "episode_title": "Peran Generani Zilenial Terhadap Pendidikan",
+              "episode_description": "Bagaimana peran kita sebegai generasi zilenial terhadap Bangsa Indonesia khususnya di bidang pendidikan? Generasi zilenial sebagai salah satu jembatan atau tombak bagi kemajuan bangsa ini juga tidak bolehlah hanya berdiam diri apalagi menjadi 'kaum rebahan saja', mari majukan pendidikan di Indonesia dengan memeberikan peran bagi lingkungan sekitar kita.",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            }
+        ]        
+      },
+      {
+        "podcast_id": "128",
+        "category_id": "4",
+        "podcast_category": "Education",
+        "podcast_author": "MejaKita",
+        "podcast_image": "../images/podcasts/revolusi.png",
+        "podcast_title": "Revolusi Edukasi",
+        "podcast_description": "Podcast #Revolusi Edukasi adalah podcast MejaKita yang diproduksi Nukilan media yang berbincang secara eksklusif terkait pendidikan. Dihost oleh Aktsa Efendy, podcast Revolusi Edukasi berharap menjadi wadah untuk berdiskursus terkait teori serta filasafat pendidikan yang dianut oleh MejaKita Group, serta aspirasi & mimpi-mimpi kami untuk pendidikan Indonesia. #RevolusiEdukasi sekarang & selamanya! Ngobrol yuk bareng kami lewat DM @MejaKita atau email: aktsa@mejakita.com",
+        "podcast_playlist": [
+          {
+              "episode_id": "128a",
+              "episode_title": "Peran Masyarakat Memajukan Pendidikan Indonesia",
+              "episode_description": "Enggak perlu startup. Enggak perlu organisasi penggerak. Enggak perlu unicorn. Hanya perlu revolusi--  kita semua dapat ikut serta memajukan pendidikan Indonesia.",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            },
+            {
+              "episode_id": "128b",
+              "episode_title": "Banyak Startup, Cerminan Kinerja Pemerintah?",
+              "episode_description": "Ya, enggak. Enggak gitu, mang.",
+              "episode_file": "../audio/SoundHelix-Song-6.mp3"
+            },
+            {
+              "episode_id": "128c",
+              "episode_title": "Gurupun Hanya Diajari Konten",
+              "episode_description": "Seringkali sebagai murid kita geram karena kita merasa hanya dicekokin konten di dalam kelas oleh guru, istilah kata hanya estafet catatan dari papan tulis saja. Namun, realitanya, gurupun mengalami hal yang sama bahkan sebelum masuk kelas. Jadi, alhasil, siklus mematikan inipun akan terus berlangsung apabila kita tidak serius dalam memperbaik standar pelatihan guru. Guru pantas mendapatkan lebih!",
+              "episode_file": "../audio/SoundHelix-Song-1.mp3"
+            }
+        ]        
+      },
+      {
+        "podcast_id": "129",
+        "category_id": "6",
+        "podcast_category": "Horror",
+        "podcast_author": "Super Horror Bros",
+        "podcast_image": "../images/podcasts/superhorror.jpg",
+        "podcast_title": "Super Horror Bros",
+        "podcast_description": "Weekly horror podcast dedicated to covering all the latest horror film releases since 2016. Available on all major podcast services.",
+        "podcast_playlist": [
+          {
+              "episode_id": "129a",
+              "episode_title": "Random Acts of Violence",
+              "episode_description": "With just one week to go until FrightFest goes digital for the first time; we are back to Shudder with another new horror release. Random Acts of Violence sees a horror comic book come to life and with a cool premise and familiar cast we were excited to check this one out. We give our verdict on whether it’s another fine addition to the streaming platform's wonderful growing catalogue; or something you should avoid. Elsewhere this week; Samara Weaving talks about Scream 5 to the surprise of no one. The Batman trailer completely floored us. And we give our thoughts on season 2 of NOS4A2 so far after one of our favorite shows of 2019 returned to continue the story of Charlie Manx. Random Acts of Violence is available on Shudder worldwide now Follow us on Twitter @SHBPod Email us: SuperHorrorBrosPodcast@gmail.com Leave us a voicemail on Skype; just search ‘Super Horror Bros’ **Please take the time to review & rate us on iTunes or your podcast service of choice. It means a great deal to the show and will make it easier for potential listeners to find us. Thanks!**",
+              "episode_file": "../audio/SoundHelix-Song-6.mp3"
+            },
+            {
+              "episode_id": "129b",
+              "episode_title": "Spree",
+              "episode_description": "It has finally happened. After a 5 month wait we have finally returned to the big screen. Seeing a film that certainly wasn’t top of our most anticipated list but looked very interesting nonetheless. Spree follows Joe Keery on his crazy trip to internet stardom doing whatever it takes to go viral. We discuss everything about this film from Youtuber/streamer antics to beloved Stranger Things actors doing something different and taking a chance. Elsewhere this week; Blumhouse is releasing a whole host of new horror films this Halloween. Jordan Peele seems to be gearing up for his next film. We have loads of new films to look forward to over the coming weeks and months. And we once again saw a Wes Craven film on the big screen and we need to discuss why it’s somehow still underrated to this day. Spree is available in cinemas worldwide now Follow us on Twitter @SHBPod Email us: SuperHorrorBrosPodcast@gmail.com Leave us a voicemail on Skype; just search ‘Super Horror Bros’ **Please take the time to review & rate us on iTunes or your podcast service of choice. It means a great deal to the show and will make it easier for potential listeners to find us. Thanks!**",
+              "episode_file": "../audio/SoundHelix-Song-1.mp3"
+            },
+            {
+              "episode_id": "129c",
+              "episode_title": "The Rental",
+              "episode_description": "We hope you enjoy the shiny new artwork! Continuing to try and find the best indie horror films as the big releases continue to evade us for the time being; this week sees us discuss the directorial debut of Dave Franco. With an all star cast for such a small film we had high hopes for whatever type of horror film this is. Elsewhere this week, Antebellum gets an interesting new release. So does Run as Lionsgate look to rethink their upcoming release schedule. Fear Street looks headed to Netflix next year. And ending the show we continue the anthology chat with Creepshow, Goosebumps and Tales from the Crypt. The Rental is available on digital services worldwide now Follow us on Twitter @SHBPod Email us: SuperHorrorBrosPodcast@gmail.com Leave us a voicemail on Skype; just search ‘Super Horror Bros’ **Please take the time to review & rate us on iTunes or your podcast service of choice. It means a great deal to the show and will make it easier for potential listeners to find us. Thanks!**",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            }
+        ]        
+      },
+      {
+        "podcast_id": "130",
+        "category_id": "6",
+        "podcast_category": "Horror",
+        "podcast_author": "suara hati",
+        "podcast_image": "../images/podcasts/suara.png",
+        "podcast_title": "SUARA HOROR",
+        "podcast_description": "Suara Horor merupakan salah satu segmen dari Podcast Suara Hati yang ada di YouTube. Di Suara Horor ini kita akan membahas seputar hal-hal yg berkaitan dengan mistis/horor, mulai dari ngebacain Thread Horor dan cerita kisah Horor/mistis yg pernah di alami oleh sebagian orang. So Stay Tune on this Podcast !!! Support this podcast: https://anchor.fm/suarahoror/support",
+        "podcast_playlist": [
+          {
+              "episode_id": "130a",
+              "episode_title": "PESUGIHAN KATAK",
+              "episode_description": "Bukan cuma babi yg bisa jadi media pesugihan, bahkan ada katak juga. Teruntuk kalian yg masih menggunakan pesugihan sebagai mata pencaharian, satu kata buat kalian BANGS*T !!!!!",
+              "episode_file": "../audio/SoundHelix-Song-1.mp3"
+            },
+            {
+              "episode_id": "130b",
+              "episode_title": "HANTU BAU PENGANTIN",
+              "episode_description": "Hantu aja bauk pengantin... Lu kapan bauk-bauk nikah ? Cazkzkzkzkk",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            },
+            {
+              "episode_id": "130c",
+              "episode_title": "RUMAH SAKIT MARDI WALUYO",
+              "episode_description": "Kali ini gw ngbrol bareng sama seorang cewek yg udah gk asing lagi di dunia explore perhantuan duaniawi... Please welcome Anna Olive from Podcast Kisah Horor.",
+              "episode_file": "../audio/SoundHelix-Song-3.mp3"
+            }
+        ]        
+      },
+      {
+        "podcast_id": "132",
+        "category_id": "6",
+        "podcast_category": "Horror",
+        "podcast_author": "Lapak Horor",
+        "podcast_image": "../images/podcasts/lapak.jpg",
+        "podcast_title": "Lapak Horor",
+        "podcast_description": "Lapak Horor adalah channel podcast yang berisi berbagai kisah seram, horor, dan misteri. Subscribe channel Youtube 'Lapak Horor' untuk mendapatkan cerita terupdate.",
+        "podcast_playlist": [
+          {
+              "episode_id": "132a",
+              "episode_title": "Pocong Bayi | Lapak Horor",
+              "episode_description": "Kejadian horor yang aku alami bersama sahabatku Rahmat di sekitaran kampus UMS. Malam itu kami baru pulang dari seorang kawan yang tinggal di sekitar UNS dan kami melewati kebun lebat yang tidak terurus.",
+              "episode_file": "../audio/SoundHelix-Song-2.mp3"
+            },
+            {
+              "episode_id": "132b",
+              "episode_title": "Jalanan Angker | Lapak Horor",
+              "episode_description": "Sebuah jalanan angker yang kerap memakan korban kecelakaan di percaya masyarakat sekitar karean ulah mahluk gaib penunggu ruas jalan itu. Konon ada sosok hantu yang tidak biasa disana. Sosok yang kerap mengganggu pengendara saat tengah malam tiba itu adalah sosok hantu pohon dengan kepala bergelayutan.",
+              "episode_file": "../audio/SoundHelix-Song-3.mp3"
+            },
+            {
+              "episode_id": "132c",
+              "episode_title": "Rumah dan Sumur Tua | Lapak Horor",
+              "episode_description": "Ada sebuah rumah yang tergolong tidak lazim karena memiliki sebuah sumur tua di tengahnya yang dibiarkan begitu saja. Rumah itu cukup besar dengan kamar yang berjumlah 8 kamar.",
+              "episode_file": "../audio/SoundHelix-Song-4.mp3"
+            }
+        ]        
+      },
+      {
+        "podcast_id": "133",
+        "category_id": "6",
+        "podcast_category": "Horror",
+        "podcast_author": "cerita horor tongkrongan",
+        "podcast_image": "../images/podcasts/tongkrongan.jpg",
+        "podcast_title": "cerita horor tongkrongan",
+        "podcast_description": "podcast gabut yang cerita cerita tentang pengalaman horor, Di bumbui dengan sedikit kekonyolan didalamnya Kalo mau kirim kirim cerita bisa langsung aja kirim ke tongkronganhoror@gmail.com follow ignya di @tong_kronganku Sama Twitter nya Di @tongkronganH cheers!!",
+        "podcast_playlist": [
+          {
+              "episode_id": "133a",
+              "episode_title": "Setan Singkong",
+              "episode_description": "Diepisode 21 kali ini kita agak ramean nih nongkrongnya, kita juga mau minta maaf kemaren ga upload agak lama soalnya ada keperluaan yang ga bisa ditinggal dan sebagai gantinya kita punya cerita yang seru seru nih dijamin dah, ceritanya ini setan kontrakan, setan singkong kaya dijudul, kunti pas grimis, pocong di kaca, penasaran ga lu gimana tuh ceritanya, langsung aja lah dengerin",
+              "episode_file": "../audio/SoundHelix-Song-3.mp3"
+            },
+            {
+              "episode_id": "133b",
+              "episode_title": "Setan Party",
+              "episode_description": "Diepisode 20 kali ini kita masih berempat nih nongkrongnya, kita juga mau minta maaf kemaren ga upload pas hari minggu sama agak telat tapi malem ini kita upload pas malem jumat nih, ceritanya seru seru dijamin dah, ceritanya ini tentang dibawa pas lagi muncak, setan party kaya dijudul, bangkit dari kubur, ditolong pas nyasar digunung, penasaran ga lu gimana tuh ceritanya, langsung aja lah dengerin",
+              "episode_file": "../audio/SoundHelix-Song-4.mp3"
+            },
+            {
+              "episode_id": "133c",
+              "episode_title": "Setan 3D",
+              "episode_description": "Diepisode 19 kali ini kita berempat nih nongkrongnya, kita juga mau minta maaf kemaren ga upload pas hari minggu, tapi tenang sebagai ucapan maaf sekarang ceritanya seru seru dijamin dah, ceritanya ini tentang diganggu pas lagi nongkrong, setan 3d kaya dijudul, setan ngobrol, urban legend serambang, penasaran ga lu gimana tuh ceritanya, langsung aja lah dengerin",
+              "episode_file": "../audio/SoundHelix-Song-5.mp3"
+            }
+        ]        
       }
-
 ]

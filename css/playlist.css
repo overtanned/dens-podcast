@@ -1,5 +1,9 @@
-#playlist .podcast-info {
+#playlist .podcast_info {
     font-size: 0.9em;
+}
+
+#playlist .podcast_info h4 {
+    margin-top: 0;
 }
 
 #playlist .btn-playlist {

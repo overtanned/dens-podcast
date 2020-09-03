@@ -12,6 +12,7 @@ function getPlaylist(podcast_id) {
 
       $.map(podcast_playlist, function(y, i) {
         var episode_id = y.episode_id;
+        var episode_file = y.episode_file;
         var episode_title = y.episode_title;
         var episode_desc = y.episode_description.slice(0,300);
 
@@ -42,7 +43,7 @@ function getPlaylist(podcast_id) {
         </div>
         <div class="podcast_info col-xs-10">
           <h4>${podcast_title}</h4>
-          <p>${podcast_author}</p>
+          <p>by ${podcast_author}</p>
           <p>${podcast_desc}</p>
           <a href="#" class="btn btn-playlist" onclick="player(\'${podcast_id}'\)"><i class="far fa-play-circle"></i> Play</a>
         </div>
@@ -55,5 +56,11 @@ function getPlaylist(podcast_id) {
   }  
 
 function playlistPlayer(episode_id) {
-  alert(episode_id)
+  LoadDataFromApi('../data/podcasts.json')
+  .then(function (data) {
+
+    console.log(data)
+    alert(episode_id)
+
+  })
 }
