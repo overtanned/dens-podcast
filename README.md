@@ -1,7 +1,7 @@
-# Dens Podcast v.0.0.5
+# Dens Podcast 0.0.5 (Still Under Construction)
 
-## Status
-<br>Under Construction
+## Preview
+![](dens-podcast.gif)
 
 ## Attention
 <br> This template relies heavily on javascript and AJAX requests don't work with the file:// protocol due to security restrictions, i.e. You need a server if your site fetches content through JavaScript. Hence, it is recommended to use a little development server with a live preview capability.
