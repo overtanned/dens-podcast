@@ -29,9 +29,9 @@ live-server
 <br>- Playlist Player
 <br>- Categories Page
 <br>- Sub Categories
-<br>- FIx Bugs
+<br>- FIx Issues
 
-## Known Bugs
+## Known Issues
 <br>- [Playlist Page] Playlist Append
 <br>- [Playlist Page] Playlist Category Undefined if no Category
 <br>- [Categories Page] Blank page if there is no podcasts yet
