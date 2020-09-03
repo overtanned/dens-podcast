@@ -25,8 +25,11 @@ live-server
 
 ## To Do List
 <br>- Implement History.js
+<br>- Playlist Page Episode Player
+<br>- Playlist Player
 <br>- Categories Page
 <br>- Sub Categories
+<br>- FIx Bugs
 
 ## Known Bugs
 <br>- [Playlist Page] Playlist Append
