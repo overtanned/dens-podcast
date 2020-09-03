@@ -1,4 +1,4 @@
-# Dens Podcast 0.0.5 (Still Under Construction)
+# Dens Podcast (Still Under Construction)
 
 ## Preview
 ![](dens-podcast.gif)
