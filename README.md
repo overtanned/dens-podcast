@@ -22,16 +22,18 @@ live-server
 <br>**01/09/2020**: Player (Play/Pause, Track, Duration, Volume Up/Down, Volume Bar), Playlist
 <br>**02/09/2020**: Organize JSON data, Owl Carousel Implementation, Category Page, Playlist Page
 <br>**03/09/2020**: Simplify AJAX Call, Simplify JS Functions, JSON Data Entry
+<br>**04/09/2020**: Implement Playlist Page Player for each Episodes
 
 ## To Do List
+<br>- Tombol Back
 <br>- Implement History.js
-<br>- Playlist Page Episode Player
-<br>- Playlist Player
 <br>- Categories Page
 <br>- Sub Categories
 <br>- FIx Issues
 
 ## Known Issues
+<br>- Player ketika load duration muncul NaN:NaN sebentar
+<br>- Tombol Back masih belum bisa
 <br>- [Playlist Page] Playlist Append
 <br>- [Playlist Page] Playlist Category Undefined if no Category
 <br>- [Categories Page] Blank page if there is no podcasts yet
