@@ -23,20 +23,19 @@ live-server
 <br>**02/09/2020**: Organize JSON data, Owl Carousel Implementation, Category Page, Playlist Page
 <br>**03/09/2020**: Simplify AJAX Call, Simplify JS Functions, JSON Data Entry
 <br>**04/09/2020**: Implement Playlist Page Player for each Episodes
+<b4>**07/09/2020**: Podcast Category Page, Podcast Subcategory
 
 ## To Do List
-<br>- Tombol Back
-<br>- Implement History.js
-<br>- Categories Page
-<br>- Sub Categories
+<br>- History API / History.js 
 <br>- FIx Issues
 
 ## Known Issues
+<br>- Category kadang tidak terload di homepage
 <br>- Player ketika load duration muncul NaN:NaN sebentar
 <br>- Tombol Back masih belum bisa
 <br>- [Playlist Page] Playlist Append
 <br>- [Playlist Page] Playlist Category Undefined if no Category
-<br>- [Categories Page] Blank page if there is no podcasts yet
+<br>- [Categories Page] Blank page / Undefined if there is no podcasts yet
 
 ## Things Worth Noticing
 <br>- Tiap Episode perlu upload date?

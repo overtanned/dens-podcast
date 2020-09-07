@@ -1,50 +1,66 @@
-
-
-
 // if a Category is Clicked
 function category(category_id, category_title) {
 
     // bersihin halaman
     $('#podcast').html(`
-        <h3><a href="#" class="back" onclick="backToHomepage()"><i class="fas fa-chevron-left"></i></a> ${category_title}</h3>
-        <div id="podcast_category">
-            <div class="row row-eq-height">
-            </div>
-        </div>
+        <h3><a href="#" class="category_back" onclick="backToHomepage()"><i class="fas fa-chevron-left"></i></a> ${category_title}</h3>
+        <div id="podcast_category"></div>
     `)
 
-    // ajax call
-    $.get( "../data/podcasts.json", function( data ) {
+    getCategory(category_id)
+  }
 
-        // filter by category
-        var result = data.filter(x => x.category_id === category_id);
+  function getCategory(category_id) {
+    LoadDataFromApi('../data/podcasts.json')
+    .then(function (data) {
 
-        console.log(result)
+      // Filter Podcasts by Category
+      var category = data.filter(x => x.category_id === category_id)
 
-        $.map(result, function(y, i) {
+      // Group Podcasts by Subcategories
+      var subcategories = _.groupBy(category, function(d){return d.podcast_subcategory});
 
-            var podcast_id = y.podcast_id;
-            var podcast_image = y.podcast_image;
-            var podcast_title = y.podcast_title;
-            var podcast_desc = y.podcast_description.slice(0,50);
+      // Map Each Subcategories
+      $.map(subcategories, function(y, i) {
 
-            $( "#podcast_category .row" ).append(`
-            <div class="channel col-xs-6 col-sm-4 col-md-3 col-lg-2">
-            <figure class="overlay imghvr-fade">
-              <img src=${podcast_image} class="podcastImg img-responsive" alt="">
-              <figcaption>
-                <img src="images/icons/play.svg" onclick="player(\'${podcast_id}'\)" class="play-button img-responsive" alt="">
-              </figcaption>
-            </figure>
-            <a class="info" onclick="getPlaylist(\'${podcast_id}'\)">
-              <h6>${podcast_title}</h6>
-              <p class="hidden-xs">${podcast_desc}</p>
-              </a>
-          </div>   
-            `)
+        var subcategory = i.toLowerCase()
 
+        $('#podcast_category').append(`
+          <hr>
+          <h4 class="subcategory_title">${subcategory}</h4>
+          <div class="podcast_subcategory_${subcategory}">
+            <div class="owl-carousel owl-theme"></div>
+          </div>
+        `)
+
+        // Map each Podcasts by Subcategories
+        $.map(y, function(x, i) {
+          var podcast_id = x.podcast_id;
+          var podcast_image = x.podcast_image;
+          var podcast_title = x.podcast_title;
+          var podcast_desc = x.podcast_description.slice(0,50);
+
+          $( `.podcast_subcategory_${subcategory} .owl-carousel` ).append(`
+          <div class="channel-${podcast_id}">
+          <figure class="overlay imghvr-fade">
+            <img src=${podcast_image} class="podcastImg" alt="">
+            <figcaption>
+              <img src="images/icons/play.svg" onclick="player(\'${podcast_id}'\)" class="play-button img-responsive" alt="">
+            </figcaption>
+          </figure>
+          <a class="info" onclick="getPlaylist(\'${podcast_id}'\)">
+            <h6>${podcast_title}</h6>
+            <p class="hidden-xs">${podcast_desc}</p>
+            </a>
+        </div>                  
+          `);
         })
+
+      })
     })
+
+    .then(function(){ loadOwlCarousel() })
+
   }
 
   function backToHomepage() {

@@ -82,7 +82,6 @@
 }
 
 /* Podcast Categories */
-
 #podcast > #categories .item {
     margin-bottom: 15px;
 }
@@ -115,3 +114,17 @@
     margin-right: 10px;
 }
 /* Podcast Categories */
+
+/* Podcast Category Page */
+
+#podcast_category .subcategory_title {
+    text-transform:capitalize;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#podcast .category_back {
+    color: #fff;
+}
+
+/* Podcast Category Page */
