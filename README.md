@@ -24,6 +24,7 @@ live-server
 <br>**03/09/2020**: Simplify AJAX Call, Simplify JS Functions, JSON Data Entry
 <br>**04/09/2020**: Implement Playlist Page Player for each Episodes
 <br>**07/09/2020**: Podcast Category Page, Podcast Subcategory
+<br>**09/09/2020**: Penyesuaian JSON Podcast Categories
 
 ## To Do List
 <br>- History API / History.js 

@@ -1,63 +1,73 @@
-[
-  {
-    "category_id": "11",
-    "category_icon": "book-open",
-    "category_title": "Stories"
-  },
-  {
-    "category_id": "6",
-    "category_icon": "ghost",
-    "category_title": "Horror"
-  },
-  {
-    "category_id": "4",
-    "category_icon": "microscope",
-    "category_title": "Education"
-  },
-  {
-    "category_id": "1",
-    "category_icon": "newspaper",
-    "category_title": "News"
-  },
-  {
-    "category_id": "2",
-    "category_icon": "theater-masks",
-    "category_title": "Comedy"
-  },
-  {
-    "category_id": "3",
-    "category_icon": "futbol",
-    "category_title": "Sports"
-  },
-  {
-    "category_id": "5",
-    "category_icon": "laptop",
-    "category_title": "Technology"
-  },
-  {
-    "category_id": "7",
-    "category_icon": "coins",
-    "category_title": "Business"
-  },
-  {
-    "category_id": "8",
-    "category_icon": "palette",
-    "category_title": "Arts"
-  },
-  {
-    "category_id": "9",
-    "category_icon": "stethoscope",
-    "category_title": "Health"
-  },
-  {
-    "category_id": "10",
-    "category_icon": "plane",
-    "category_title": "Travel"
-  },
-  
-  {
-    "category_id": "12",
-    "category_icon": "utensils",
-    "category_title": "Food"
-  }
-]
+{
+  "response": "0",
+	"msg": "Success",
+	"api_id": "adps_category_podcast",
+	"tor": "0.2682",
+  "data": 
+  [
+    {
+      "category_id": "11",
+      "category_icon": "book-open",
+      "category_title": "Stories"
+    },
+    {
+      "category_id": "6",
+      "category_icon": "ghost",
+      "category_title": "Horror"
+    },
+    {
+      "category_id": "4",
+      "category_icon": "microscope",
+      "category_title": "Education"
+    },
+    {
+      "category_id": "1",
+      "category_icon": "newspaper",
+      "category_title": "News"
+    },
+    {
+      "category_id": "2",
+      "category_icon": "theater-masks",
+      "category_title": "Comedy"
+    },
+    {
+      "category_id": "3",
+      "category_icon": "futbol",
+      "category_title": "Sports"
+    },
+    {
+      "category_id": "5",
+      "category_icon": "laptop",
+      "category_title": "Technology"
+    },
+    {
+      "category_id": "7",
+      "category_icon": "coins",
+      "category_title": "Business"
+    },
+    {
+      "category_id": "8",
+      "category_icon": "palette",
+      "category_title": "Arts"
+    },
+    {
+      "category_id": "9",
+      "category_icon": "stethoscope",
+      "category_title": "Health"
+    },
+    {
+      "category_id": "10",
+      "category_icon": "plane",
+      "category_title": "Travel"
+    },
+    
+    {
+      "category_id": "12",
+      "category_icon": "utensils",
+      "category_title": "Food"
+    }
+  ]
+}
+
+
+

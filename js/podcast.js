@@ -53,7 +53,7 @@ LoadDataFromApi('../data/podcasts.json')
 
   // Get Categories
   LoadDataFromApi('../data/categories.json')
-  .then(function getCategories(data) {
+  .then(function getCategories(result) {
 
     $("#recommendation").after(`
     <div id="categories">
@@ -66,7 +66,7 @@ LoadDataFromApi('../data/podcasts.json')
     </div>
     `)
 
-    $.map(data, function(x, i) {
+    $.map(result.data, function(x, i) {
       var category_id = x.category_id;
       var category_icon = x.category_icon;
       var category_title = x.category_title;
