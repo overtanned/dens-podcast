@@ -70,11 +70,11 @@
     border:0px solid black;
 }
 #podcast .owl-prev { 
-    left: -37px; 
+    left: -50px; 
 }
 
 #podcast .owl-next { 
-    right: -37px; 
+    right: -50px; 
 }
 
 #podcast .owl-theme .owl-nav [class*=owl-]:hover {
