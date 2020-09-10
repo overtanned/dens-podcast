@@ -25,7 +25,7 @@ live-server
 <br>**04/09/2020**: Implement Playlist Page Player for each Episodes
 <br>**07/09/2020**: Podcast Category Page, Podcast Subcategory
 <br>**09/09/2020**: Penyesuaian dengan API (Podcast Categories, List Podcast by Category, Podcast Episodes)
-<br>**10/09/2020**: Penyesuaian dengan API Podcast Categories & Content, Fix Player UI in small viewport
+<br>**10/09/2020**: Penyesuaian dengan API Podcast Categories & Content, Fix Player UI in small viewport, Penambahan Hover animation
 
 ## To Do List
 <br>- History API / History.js 

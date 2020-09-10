@@ -26,10 +26,15 @@
 #podcast .info:hover {
     color: #E6C515;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 #podcast .info:active, #podcast .info:visited {
     text-decoration: none;
+}
+
+#podcast figure.overlay.imghvr-fade:hover {
+    transform: scale(1.1);
 }
 
 #podcast figcaption {
@@ -38,6 +43,10 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+#podcast figcaption:hover {
+    transform: scale(1.1);
 }
 
 #podcast figcaption .play-button {
@@ -49,6 +58,10 @@
 /* Podcast Reccomendation */
 
 /* Owl Carousel */
+#podcast .owl-stage-outer {
+    overflow: visible;
+}
+
 #podcast .owl-prev, #podcast .owl-next {
     position: absolute;
     top: 50%;
@@ -69,6 +82,7 @@
     color: #E6C515;
     text-decoration: none;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #podcast .owl-next i, #podcast .owl-prev i {
@@ -112,6 +126,7 @@
     background-repeat: no-repeat;
     color: #20232A;
     transition: 0.5s;
+    transform: scale(1.1);
 }
 
 #podcast > #categories .item > .menu > .icon {
