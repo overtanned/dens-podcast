@@ -1,0 +1,40 @@
+{
+	"error": "0",
+	"message": "SUCCESS",
+	"api_id": "adps_podcast_episode",
+	"tor": "0.0905",
+	"data": {
+		"totalreturn": 5,
+		"totalrecord": 5,
+		"episodes": [
+		{
+			"id": "0121",
+            "title": "Bukan aku yang kehilangan kamu, tapi kamu yang kehilangan aku",
+            "description": "Karena dari semua rasa sakit ini, satu hal yang perlu kamu tahu, ‘karma’ masih berlaku.",
+            "link": "../audio/SoundHelix-Song-3.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0122",
+            "title": "Definisi pertemanan yang indah (Part 2)",
+            "description": "Di sini; kita bicara tentang support system. Karena pertemanan itu, akan secara tidak langsung men-direct kemana kita akan bermuara. Kemana kita akan terbang dan mengepakan sayap. Bersama gue, kita mengudara buat membahas tentang salah satu tema #SelfHelp ini",
+            "link": "../audio/SoundHelix-Song-4.mp3",
+			"length": "12345"
+		},
+		{
+			"id": "0123",
+            "title": "Cara keluar dari TOXIC FRIENDSHIP? (Part 1)",
+            "description": "Tentang rasa takut, takut kalau ‘sendiri’ yang membuat kamu justru mau tidak mau, berteman dengan mereka yang justru perlahan merusak dan membuat dirimu semakin hilang. Ingin berlari, ingin keluar, namun bingung bermula dari mana? Di sini, kita bicara tentang bagaimana caranya keluar dari belenggu pertemanan yang tidak sehat. Selamat mendengar!",
+            "link": "../audio/SoundHelix-Song-5.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0124",
+            "title": "Kenapa ya, yang indah-indah cuma sebentar?",
+            "description": "Karena aku seperti tertimpa kabar paling baik, namun langsung ditarik kembali. Seperti angin yang berhembus begitu cepat, aku sungguh belum benar-benar menikmati. Jujur, aku bingung.",
+            "link": "../audio/SoundHelix-Song-6.mp3",
+			"length": "12345"
+		}
+	]
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"error": "0",
+	"message": "SUCCESS",
+	"api_id": "adps_podcast_episode",
+	"tor": "0.0905",
+	"data": {
+		"totalreturn": 5,
+		"totalrecord": 5,
+		"episodes": [
+		{
+			"id": "0061",
+            "title": "Mengapa Hanya 1% Orang Indonesia Kenal Saham?",
+            "description": "Harga saham Apple Inc atau AAPL pada perdagangan jumat tanggal 21 Agustus ditutup 498 dolar AS, dimana pada harga ini maka kapitalisasi pasar dari Apple telah tembus 2,1 triliun dolar AS atau Rp 30.800 triliun. Angka ini bahkan lebih besar dua kali lipat dibanding Produk Domestik Bruto Indonesia (PDB) yang Rp 15.000 triliun.",
+            "link": "../audio/SoundHelix-Song-6.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0062",
+            "title": "Benarkah Kimia Farma dan Indofarma Untung Besar dari Vaksin C-19?",
+            "description": "Dalam sebulan terakhir, harga saham perusahaan farmasi terbang sangat tinggi, sebut saja PT Indofarma Tbk (INAF) yang sudah naik 220%, lalu PT Kimia Farma Tbk (KAEF) yang naik 190%. Dalam Podcast ini, Yossy Girsang mengulas fenomena ini dengan menganalisa dampak dari sentimen positif dimana banyak Investor dan Analyst memperkirakan bahwa pendapatan dari INAF dan KAEF akan naik signifikan ketika kedua perusahaan BUMN ini mulai mendistribusikan vaksin virus corona ke berbagai daerah di Indonesia yang diproduksi oleh Holding BUMN Farmasi PT Biofarma.",
+            "link": "../audio/SoundHelix-Song-1.mp3",
+			"length": "12345"
+		},
+		{
+			"id": "0063",
+            "title": "Strategi Bertahan dan Menyerang Hadapi Resesi Ekonomi",
+            "description": "Tips Keuangan bagaimana mempersiapkan diri dan keluarga ketika nantinya Indonesia masuk masa Resesi Ekonomi",
+            "link": "../audio/SoundHelix-Song-2.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0064",
+            "title": "Eksklusif Interview: Staf Khusus Menteri Keuangan RI, Yustinus Prastowo",
+            "description": "Strategi Indonesia Menghadapi Resesi Ekonomi. Kapan Indonesia akan pulih kembali? Simak detailnya pada podcast ini bersama Yossy Girsang. Salam Investasi.",
+            "link": "../audio/SoundHelix-Song-3.mp3",
+			"length": "12345"
+		}
+	]
+	}
+}

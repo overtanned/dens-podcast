@@ -1,0 +1,33 @@
+{
+	"error": "0",
+	"message": "SUCCESS",
+	"api_id": "adps_podcast_episode",
+	"tor": "0.0905",
+	"data": {
+		"totalreturn": 5,
+		"totalrecord": 5,
+		"episodes": [
+		{
+			"id": "0041",
+            "title": "Tips Bagi Para Mahasiswa Baru Untuk Mengenal Dunia Perkuliahan",
+            "description": "Jenjang baru setelah Sekolah Menengah Atas (SMA) yaitu dunia perkuliahan yang sering kali membuat kita merasa bingung. Apakah akan seseram yang kita pikirkan? Atau mungkin sama seperti SMA? Atau malah lebih menyenangkan?",
+            "link": "../audio/SoundHelix-Song-1.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0042",
+            "title": "Kesehatan Mental Saat Covid-19",
+            "description": "Di tengah pandemi COVID-19, masyarakat diimbau untuk menjaga, tidak hanya kesehatan fisik, tetapi juga kesehatan mental.",
+            "link": "../audio/SoundHelix-Song-2.mp3",
+			"length": "12345"
+		},
+		{
+			"id": "0043",
+            "title": "Peran Generani Zilenial Terhadap Pendidikan",
+            "description": "Bagaimana peran kita sebegai generasi zilenial terhadap Bangsa Indonesia khususnya di bidang pendidikan? Generasi zilenial sebagai salah satu jembatan atau tombak bagi kemajuan bangsa ini juga tidak bolehlah hanya berdiam diri apalagi menjadi 'kaum rebahan saja', mari majukan pendidikan di Indonesia dengan memeberikan peran bagi lingkungan sekitar kita.",
+            "link": "../audio/SoundHelix-Song-3.mp3",
+			"length": "12345"
+		}
+	]
+	}
+}

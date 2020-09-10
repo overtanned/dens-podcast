@@ -24,7 +24,8 @@ live-server
 <br>**03/09/2020**: Simplify AJAX Call, Simplify JS Functions, JSON Data Entry
 <br>**04/09/2020**: Implement Playlist Page Player for each Episodes
 <br>**07/09/2020**: Podcast Category Page, Podcast Subcategory
-<br>**09/09/2020**: Penyesuaian JSON Podcast Categories
+<br>**09/09/2020**: Penyesuaian dengan API (Podcast Categories, List Podcast by Category, Podcast Episodes)
+<br>**10/09/2020**: Penyesuaian dengan API Podcast Categories & Content, Fix Player UI in small viewport
 
 ## To Do List
 <br>- History API / History.js 
@@ -34,9 +35,6 @@ live-server
 <br>- Category kadang tidak terload di homepage
 <br>- Player ketika load duration muncul NaN:NaN sebentar
 <br>- Tombol Back masih belum bisa
-<br>- [Playlist Page] Playlist Append
-<br>- [Playlist Page] Playlist Category Undefined if no Category
-<br>- [Categories Page] Blank page / Undefined if there is no podcasts yet
 
 ## Things Worth Noticing
 <br>- Tiap Episode perlu upload date?

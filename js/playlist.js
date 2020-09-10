@@ -1,77 +1,90 @@
 
 // Playlist 
-function getPlaylist(podcast_id) {
-    $.get( "../data/podcasts.json", function( data ) {
-      var result = data.filter(x => x.podcast_id === podcast_id);
-      var podcast_category = result[0].podcast_category;
-      var podcast_title = result[0].podcast_title;
-      var podcast_image = result[0].podcast_image;
-      var podcast_desc = result[0].podcast_description;
-      var podcast_author = result[0].podcast_author;
-      var podcast_playlist = result[0].podcast_playlist;
+function getPlaylist(category_id, category_name, podcast_id) {
 
-      $.map(podcast_playlist, function(y, i) {
-        var episode_id = y.episode_id;
-        var episode_file = y.episode_file;
-        var episode_title = y.episode_title;
-        var episode_desc = y.episode_description.slice(0,300);
+  console.log(category_id, category_name, podcast_id)
+    $.get( `../data/categories/${category_id}.json`, function( result ) {
 
-        $( document ).ajaxStop(function() {
-          $('#playlist-items').append(`
-          <div class="episode-${episode_id}" onclick="playlistPlayer(\'${episode_id}'\)">
-              <div class="row row-eq-height">
-                  <div class="vertical-align col-xs-2 col-md-1 nopadding">
-                      <img src="images/icons/play.svg" class="play-button img-responsive" alt="">
-                  </div>
-                  <div class="col-xs-10 col-md-11 nopadding">
-                      <h6 class="title">${episode_title}</h6>
-                      <p class="desc hidden-xs">${episode_desc}</p>
-                  </div>
-              </div>
-          </div>
-          `)
-        });
-      })
+      var podcasts = result.data.podcasts
+
+      var result = podcasts.filter(x => x.id === podcast_id)[0];
+
+      console.log(result)
+
+      var podcast_title = result.title;
+      var podcast_image = result.image;
+      var podcast_desc = result.description;
+      var podcast_author = result.author;
       
-    $('#podcast').html(`
-    <div id="playlist">
-      <h3>${podcast_category}</h3>
-      <br>
-      <div class="row row-eq-height">
-        <div class="col-xs-2">
-          <img id="podcast_cover" src=${podcast_image} class="img-responsive" alt=${podcast_title} />
+      $('#podcast').html(`
+      <div id="playlist">
+        <h3 class="category_title">${category_name}</h3>
+        <br>
+        <div class="row row-eq-height">
+          <div class="col-xs-2">
+            <img src=${podcast_image} class="podcast-cover-${podcast_id} img-responsive" alt=${podcast_title} />
+          </div>
+          <div class="podcast_info col-xs-10">
+            <h4>${podcast_title}</h4>
+            <p>by ${podcast_author}</p>
+            <p>${podcast_desc}</p>
+            <a href="#" class="btn btn-playlist" onclick="player(\'${podcast_id}'\)"><i class="far fa-play-circle"></i> Play</a>
+          </div>
         </div>
-        <div class="podcast_info col-xs-10">
-          <h4>${podcast_title}</h4>
-          <p>by ${podcast_author}</p>
-          <p>${podcast_desc}</p>
-          <a href="#" class="btn btn-playlist" onclick="player(\'${podcast_id}'\)"><i class="far fa-play-circle"></i> Play</a>
-        </div>
+        <div id="playlist-items"></div>
       </div>
-      <div id="playlist-items"></div>
-    </div>
-    `);  
-    })
+      `);  
+      })
+
+      getEpisodes(podcast_id)
 
   }  
 
-// Customized Player for Playlist Page
-function playlistPlayer(episode_id) {
-  LoadDataFromApi('../data/podcasts.json')
-  .then(function (data) {
+// Get Podcast Episodes
+function getEpisodes(podcast_id) {
+  LoadDataFromApi(`../data/episodes/${podcast_id}.json`)
+  .then(function (result) {
 
-    var episode = [];
+  var data = result.data.episodes
 
-    data.forEach(function(e) {
-      episode = episode.concat(e.podcast_playlist.filter(function(c) {
-          return (c.episode_id === episode_id);
-      }));
+  console.log(data)
+
+  $.map(data, function(y, i) {
+
+    var episode_id = y.id;
+    var episode_title = y.title;
+    var episode_desc = y.description.slice(0,300);
+
+      $('#playlist-items').append(`
+      <div class="episode-${episode_id}" onclick="playlistPlayer(\'${podcast_id}'\,\'${episode_id}'\)">
+          <div class="row row-eq-height">
+              <div class="vertical-align col-xs-2 col-md-1 nopadding">
+                  <img src="images/icons/play.svg" class="play-button img-responsive" alt="">
+              </div>
+              <div class="col-xs-10 col-md-11 nopadding">
+                  <h6 class="title">${episode_title}</h6>
+                  <p class="desc hidden-xs">${episode_desc}</p>
+              </div>
+          </div>
+      </div>
+      `)
     });
+  })
+
+}
+
+// Customized Player for Playlist Page
+function playlistPlayer(podcast_id, episode_id) {
+  LoadDataFromApi(`../data/episodes/${podcast_id}.json`)
+  .then(function (result) {
+
+    var episodes = result.data.episodes
+    var episode = episodes.filter(x => x.id === episode_id)[0];
     
-    var podcast_image = $('#podcast_cover').attr('src');
-    var episode_file = episode[0].episode_file;
-    var episode_desc = episode[0].episode_description.slice(0,50);
-    var episode_title = episode[0].episode_title.slice(0,30);
+    var podcast_image = $(`.podcast-cover-${podcast_id}`).attr('src')
+    var episode_file = episode.link;
+    var episode_desc = episode.description.slice(0,50);
+    var episode_title = episode.title.slice(0,30);
 
     $( "#player" ).show().html(`
     <div class="container-fluid">

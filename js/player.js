@@ -1,27 +1,30 @@
 // Player
 function player(podcast_id) {
 
-  $.get( "../data/podcasts.json", function( data ) {
-    var result = data.filter(x => x.podcast_id === podcast_id);
 
-    var podcast_title = result[0].podcast_title;
-    var podcast_image = result[0].podcast_image;
-    var podcast_desc = result[0].podcast_description.slice(0,50);
-    var podcast_file = result[0].podcast_playlist[0].episode_file;
+    $.get( `../data/episodes/${podcast_id}.json`, function( result ) {
+
+    var newest_episode = result.data.episodes[0]
+
+    var title = newest_episode.title.slice(0,30);
+    // var image = '../images/noimage.jpg';
+    var image = $(`.podcast-cover-${podcast_id}`).attr('src')
+    var desc = newest_episode.description.slice(0,50);
+    var link = newest_episode.link;
 
   $( "#player" ).show().html(`
   <div class="container-fluid">
     <div class="row row-eq-height">
-      <div class="col-md-1">
-        <img src=${podcast_image} class="img-responsive" alt="">
+      <div class="col-xs-3 col-sm-2 col-md-1">
+        <img src=${image} class="img-responsive" alt="">
       </div>
-      <div class="col-md-2">
-        <h6>${podcast_title}</h6>
-        <p>${podcast_desc}</p>
+      <div class="hidden-xs hidden-sm col-md-2">
+        <h6>${title}</h6>
+        <p>${desc}</p>
       </div>
-      <div id="player-container"class="col-md-6 text-center">
+      <div id="player-container"class="col-xs-9 col-sm-8 col-md-6 text-center">
         <audio id="podcast-player" ontimeupdate="initProgressBar()">
-          <source src=${podcast_file} type="audio/mp3">
+          <source src=${link} type="audio/mp3">
         </audio>
 
         <div class="player-controls"> 
@@ -45,7 +48,7 @@ function player(podcast_id) {
           
         </div>
       </div>
-      <div id="volume" class="col-md-3">
+      <div id="volume" class="hidden-xs col-sm-2 col-md-3">
         <div class="row">
           <div class="col-xs-2 text-right">
             <img src="images/icons/volume-down.svg" class="volumeDown" onclick="volumeDown()" alt="">

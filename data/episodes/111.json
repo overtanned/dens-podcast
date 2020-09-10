@@ -1,0 +1,40 @@
+{
+	"error": "0",
+	"message": "SUCCESS",
+	"api_id": "adps_podcast_episode",
+	"tor": "0.0905",
+	"data": {
+		"totalreturn": 5,
+		"totalrecord": 5,
+		"episodes": [
+		{
+			"id": "0111",
+            "title": "selamat hari sedih sedunia",
+            "description": "dulu gw pikir kalimat 'the only thing matters is your happiness' adalah kalimat terklise di dunia, until i understand why some people love someone by letting them go",
+            "link": "../audio/SoundHelix-Song-2.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0112",
+            "title": "Kotak Pos Eps. 03",
+            "description": "Istirahat sih...",
+            "link": "../audio/SoundHelix-Song-3.mp3",
+			"length": "12345"
+		},
+		{
+			"id": "0113",
+            "title": "ya udah mau gimana lagi",
+            "description": "dicoba, ya? dicoba untuk nggak selalu bergantung dengan rasa senang",
+            "link": "../audio/SoundHelix-Song-4.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0114",
+            "title": "di atas kapal",
+            "description": "gapapa, mungkin beberapa jarak diciptakan Tuhan bukan untuk ditempuh, tapi untuk dibiarkan. dibiarkan tetap jauh.",
+            "link": "../audio/SoundHelix-Song-5.mp3",
+			"length": "12345"
+		}
+	]
+	}
+}

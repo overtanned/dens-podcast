@@ -14,45 +14,20 @@ function LoadDataFromApi(apiUrl) {
 }
 
 // Get Recommendation
-LoadDataFromApi('../data/podcasts.json')
-  .then(function getRecommendation(data) {
+LoadDataFromApi('../data/categories/0.json')
+  .then(function getRecommendation(result) {
 
-    $( "#podcast" ).append(`
-      <div id="recommendation">
-        <h3>Recommendation</h3>
-        <br>
-        <div class="owl-carousel owl-theme">
-        </div>
-      </div>
-    `)
+    var category_id = '0';
+    var category_name = 'recommendation';
+    appendCategory(category_name);
 
-    $.map(data.slice(0,10), function(x, i) {
-      var podcast_id = x.podcast_id;
-      var podcast_category = x.podcast_category;
-      var podcast_image = x.podcast_image;
-      var podcast_title = x.podcast_title;
-      var podcast_desc = x.podcast_description.slice(0,50);
-
-      $( `#recommendation .owl-carousel` ).append(`
-        <div class="channel-${podcast_id}">
-          <figure class="overlay imghvr-fade">
-            <img src=${podcast_image} class="podcastImg" alt="">
-            <figcaption>
-              <img src="images/icons/play.svg" onclick="player(\'${podcast_id}'\)" class="play-button img-responsive" alt="">
-            </figcaption>
-          </figure>
-          <a class="info" onclick="getPlaylist(\'${podcast_id}'\)">
-            <h6>${podcast_title}</h6>
-            <p class="hidden-xs">${podcast_desc}</p>
-            </a>
-        </div>    
-      `);
-    }); 
+    var podcasts = result.data.podcasts;
+    displayPodcasts(category_id, category_name, podcasts)
   
   })
 
   // Get Categories
-  LoadDataFromApi('../data/categories.json')
+  LoadDataFromApi('../data/categories/list.json')
   .then(function getCategories(result) {
 
     $("#recommendation").after(`
@@ -82,83 +57,83 @@ LoadDataFromApi('../data/podcasts.json')
   })
 
   // Get Stories
-  LoadDataFromApi('../data/podcasts.json')
-  .then(function getStories(data) {
+  LoadDataFromApi('../data/categories/11.json')
+  .then(function getStories(result) {
 
-    $( "#podcast" ).append(`
-      <div id="stories">
-        <h3>Stories</h3>
-        <br>
-        <div class="owl-carousel owl-theme">
-        </div>
-      </div>
-    `)
+    var category_id = '11';
+    var category_name = 'stories';
+    appendCategory(category_name);
 
-      var filter = data.filter(x => x.category_id === '11');
-      displayPodcasts(filter)      
+    var podcasts = result.data.podcasts;
+    displayPodcasts(category_id, category_name, podcasts)
       
   })
 
     // Get Education
-    LoadDataFromApi('../data/podcasts.json')
-    .then(function getStories(data) {
+    LoadDataFromApi('../data/categories/4.json')
+    .then(function getStories(result) {
   
-      $( "#podcast" ).append(`
-        <div id="education">
-          <h3>Education</h3>
-          <br>
-          <div class="owl-carousel owl-theme">
-          </div>
-        </div>
-      `)
-  
-        var data = data.filter(x => x.category_id === '4');
-        displayPodcasts(data)      
+      var category_id = '4';
+      var category_name = 'education';
+      appendCategory(category_name);
+
+      var podcasts = result.data.podcasts;
+      displayPodcasts(category_id, category_name, podcasts)
         
     })
 
     // Get Horror
-    LoadDataFromApi('../data/podcasts.json')
-    .then(function getStories(data) {
-  
-      $( "#podcast" ).append(`
-        <div id="horror">
-          <h3>Horror</h3>
-          <br>
-          <div class="owl-carousel owl-theme">
-          </div>
-        </div>
-      `)
-  
-        var filter = data.filter(x => x.category_id === '6');
-        displayPodcasts(filter)        
+    LoadDataFromApi('../data/categories/6.json')
+    .then(function getStories(result) {
+
+      var category_id = '6';
+      var category_name = 'horror';
+      appendCategory(category_name);
+
+      var podcasts = result.data.podcasts;
+      displayPodcasts(category_id, category_name, podcasts)
+           
     })
   
   // Call Owl Carousel after All AJAX data Loaded
   .then(function(){ loadOwlCarousel() })
 
-  // Display Podcasts by Filter
-  function displayPodcasts(filter) {
-    $.map(filter, function(x, i) {
-      var podcast_id = x.podcast_id;
-      var podcast_category = x.podcast_category.toLowerCase();
-      var podcast_image = x.podcast_image;
-      var podcast_title = x.podcast_title;
-      var podcast_desc = x.podcast_description.slice(0,50);
+  // Append Category Div
+  function appendCategory(category) {
+    $( "#podcast" ).append(`
+    <div id=${category}>
+      <h3 class="category_title">${category}</h3>
+      <br>
+      <div class="owl-carousel owl-theme">
+      </div>
+    </div>
+  `)
+  }
 
-      $( `#${podcast_category} .owl-carousel` ).append(`
+  // Display Podcasts by Category
+  function displayPodcasts(category_id, category_name, podcasts) {
+
+    $.map(podcasts, function(x, i) {
+
+      var podcast_id = x.id;
+      var podcast_image = x.image;
+      var podcast_title = x.title;
+      var podcast_desc = x.description.slice(0,50);
+
+      $( `#${category_name} .owl-carousel` ).append(`
         <div class="channel-${podcast_id}">
           <figure class="overlay imghvr-fade">
-            <img src=${podcast_image} class="podcastImg" alt="">
+            <img src=${podcast_image} class="podcast-cover-${podcast_id}" alt="">
             <figcaption>
               <img src="images/icons/play.svg" onclick="player(\'${podcast_id}'\)" class="play-button img-responsive" alt="">
             </figcaption>
           </figure>
-          <a class="info" onclick="getPlaylist(\'${podcast_id}'\)">
+          <a class="info" onclick="getPlaylist(\'${category_id}'\,\'${category_name}'\,\'${podcast_id}'\)">
             <h6>${podcast_title}</h6>
             <p class="hidden-xs">${podcast_desc}</p>
             </a>
         </div>    
       `);
     });
+        
   }

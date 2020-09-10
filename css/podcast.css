@@ -1,3 +1,7 @@
+#podcast .category_title {
+    text-transform: capitalize;
+}
+
 /* Podcast Reccomendation */
 
 #podcast .channel .overlay img {

@@ -1,0 +1,40 @@
+{
+	"error": "0",
+	"message": "SUCCESS",
+	"api_id": "adps_podcast_episode",
+	"tor": "0.0905",
+	"data": {
+		"totalreturn": 5,
+		"totalrecord": 5,
+		"episodes": [
+		{
+			"id": "0021",
+            "title": "Stand Up Comedy yang Tertunda",
+            "description": "Pandji Pragiwaksono adalah seorang Stand Up Comedian.",
+            "link": "../audio/SoundHelix-Song-2.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0022",
+            "title": "Pernikahan di Tengah Pandemi (Ft. Melaney Ricardo)",
+            "description": "Melaney Ricardo adalah seorang entertainer.",
+            "link": "../audio/SoundHelix-Song-3.mp3",
+			"length": "12345"
+		},
+		{
+			"id": "0023",
+            "title": "Menjaga Kewarasan Selama di Rumah Aja (Ft. Chandra Liow)",
+            "description": "Chandra Liow adalah seorang Youtuber dan Sutradara.",
+            "link": "../audio/SoundHelix-Song-4.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0024",
+            "title": "Masa Depan E-Sport (Ft. Shinta Bubu)",
+            "description": "Shinta Dhanuwardoyo (Shinta Bubu) adalah pengusaha Indonesia, pegiat digital, angel investor, pendiri Nusantara Venture dan bubu.com.",
+            "link": "../audio/SoundHelix-Song-5.mp3",
+			"length": "12345"
+		}
+	]
+	}
+}

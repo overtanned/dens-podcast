@@ -1,0 +1,40 @@
+{
+	"error": "0",
+	"message": "SUCCESS",
+	"api_id": "adps_podcast_episode",
+	"tor": "0.0905",
+	"data": {
+		"totalreturn": 5,
+		"totalrecord": 5,
+		"episodes": [
+		{
+			"id": "0041",
+            "title": "Powerful Literacy Practices During Covid Era Teaching with Jennifer Serravallo (pt.1)",
+            "description": "Hello everyone! Welcome to season 5! I love starting every season off with a massive literacy focused episode. Season 2 began with my talk with Donalyn Miller. Season 3 started with my talk with Penny Kittle. Season 4 started with my talk with Kelly Gallagher. And for season 5, I have brought on yet another one of my teaching idols, Jennifer Serravallo, to discuss powerful literacy practices to focus on during covid era teaching!",
+            "link": "../audio/SoundHelix-Song-2.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0042",
+            "title": "Breathe — Season 5 Intro!",
+            "description": "Hello everyone! It is here! Hard to believe this podcast has been going since 2016, and it’s even harder to believe just how many teachers keep finding and supporting the show. So first off, thank you! Without you, this show would not exist the way it does today.",
+            "link": "../audio/SoundHelix-Song-3.mp3",
+			"length": "12345"
+		},
+		{
+			"id": "0043",
+            "title": "SUMMER BLAST FINALE – Out of the Comfort Zone with Kelli Sanders",
+            "description": "Hello everyone and welcome to Teach Me, Teacher’s SUMMER BLAST of inspiration! I cannot express how excited, pumped, and inspired I am right now for next year, and I want you to join me and my AMAZING guests in our quest to bring some positivity into the teaching world.",
+            "link": "../audio/SoundHelix-Song-4.mp3",
+			"length": "12345"
+        },
+		{
+			"id": "0044",
+            "title": "SUMMER BLAST #10 – Small Town Teaching with Haley Curfman",
+            "description": "Hello everyone and welcome to Teach Me, Teacher’s SUMMER BLAST of inspiration! I cannot express how excited, pumped, and inspired I am right now for next year, and I want you to join me and my AMAZING guests in our quest to bring some positivity into the teaching world.",
+            "link": "../audio/SoundHelix-Song-5.mp3",
+			"length": "12345"
+		}
+	]
+	}
+}

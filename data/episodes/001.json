@@ -1,0 +1,40 @@
+{
+	"error": "0",
+	"message": "SUCCESS",
+	"api_id": "adps_podcast_episode",
+	"tor": "0.0905",
+	"data": {
+		"totalreturn": 5,
+		"totalrecord": 5,
+		"episodes": [
+		{
+			"id": "0011",
+            "title": "US election: Biden accuses 'weak' Trump of stoking violence",
+            "description": "The Democratic Party's candidate for the US presidency Joe Biden has challenged President Trump on law and order, asking voters if they feel safe with a leader who can’t control his supporters. Also: Australia says China has detained a prominent journalist without charge, and new figures show the Indian economy has been devastated by the pandemic.",
+            "link": "../audio/SoundHelix-Song-1.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0012",
+            "title": "Historic Israeli flight arrives in UAE",
+            "description": "The direct flight marks a major step in normalising ties between Israel and the Gulf Arab country. Also: Sudan 'on road to peace' after a deal is signed, and artificial intelligence is being trialled in Australia to improve the safety of female travellers at night.",
+            "link": "../audio/SoundHelix-Song-2.mp3",
+			"length": "12345"
+		},
+		{
+			"id": "0013",
+            "title": "Belarus: Mass rally keeps pressure on Lukashenko",
+            "description": "Tens of thousands again take to the streets in Belarus to protest against President Alexander Lukashenko. Also: the Israeli Prime Minister, Benjamin Netanyahu, says there have been unpublicised talks with many more Arab countries about improving ties. And India and Russia declared joint winners at Chess Olympiad.",
+            "link": "../audio/SoundHelix-Song-3.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0014",
+            "title": "Belarus: Journalists covering protests stripped of accreditation",
+            "description": "Several thousand women in Belarus have rallied in central Minsk for a “March of Solidarity”, urging President Lukashenko and the government to resign. Also: German police have arrested hundreds of people demonstrating in Berlin against coronavirus restrictions, and hundreds of migrants are rescued from a ship funded by the British graffiti artist Banksy.",
+            "link": "../audio/SoundHelix-Song-4.mp3",
+			"length": "12345"
+		}
+	]
+	}
+}

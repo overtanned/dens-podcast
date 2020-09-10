@@ -1,0 +1,26 @@
+{
+	"error": "0",
+	"message": "SUCCESS",
+	"api_id": "adps_podcast_episode",
+	"tor": "0.0905",
+	"data": {
+		"totalreturn": 5,
+		"totalrecord": 5,
+		"episodes": [
+		{
+			"id": "0041",
+            "title": "Nyanyi nyenengke ati (Nyanyi menghibur hati)",
+            "description": "Nyanyi pas wengi nyenengke ati",
+            "link": "../audio/SoundHelix-Song-4.mp3",
+			"length": "12345"
+		}, 
+		{
+			"id": "0042",
+            "title": "Podcast Jawa (Trailer)",
+            "description": "",
+            "link": "../audio/SoundHelix-Song-5.mp3",
+			"length": "12345"
+		}
+	]
+	}
+}
