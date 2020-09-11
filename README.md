@@ -1,4 +1,4 @@
-# Dens Podcast (Still Under Construction)
+# Dens Podcast
 
 ## Preview
 ![](dens-podcast.gif)
