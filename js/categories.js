@@ -1,4 +1,20 @@
   function category(category_id) {
+
+    // Handle Ajax Call
+    var requestCache = {};
+
+    function LoadDataFromApi(apiUrl) {
+      if (!requestCache[apiUrl]) {
+        requestCache[apiUrl] = $.ajax({
+            type: 'GET',
+            url: apiUrl,
+            dataType: "json"
+        });
+      }
+
+      return requestCache[apiUrl];
+    }
+
     LoadDataFromApi(`../data/subcategories/${category_id}.json`)
     .then(function (result) {
 
@@ -53,11 +69,14 @@
 
       })
     })
-
     .then(function(){ loadOwlCarousel() })
-
+    .fail(function(){ alert('Belom ada isi contentnya ya') })
   }
 
   function backToHomepage() {
-    location.reload(true);
+
+    // bersihin halaman
+    $('#podcast').empty()
+    homepage()
+
   }  

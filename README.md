@@ -26,15 +26,16 @@ live-server
 <br>**07/09/2020**: Podcast Category Page, Podcast Subcategory
 <br>**09/09/2020**: Penyesuaian dengan API (Podcast Categories, List Podcast by Category, Podcast Episodes)
 <br>**10/09/2020**: Penyesuaian dengan API Podcast Categories & Content, Fix Player UI in small viewport, Penambahan Hover animation
+<br>**11/09/2020**: Tombol Back pada halaman Category & Playlist sudah berfungsi
 
 ## To Do List
-<br>- History API / History.js 
+<br>- Responsive Web Design Testing
 <br>- FIx Issues
 
 ## Known Issues
 <br>- Category kadang tidak terload di homepage
 <br>- Player ketika load duration muncul NaN:NaN sebentar
-<br>- Tombol Back masih belum bisa
+<br>- Footer naik ke atas ketika tombol back ditekan
 
 ## Things Worth Noticing
 <br>- Tiap Episode perlu upload date?

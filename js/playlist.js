@@ -2,14 +2,11 @@
 // Playlist 
 function getPlaylist(category_id, category_name, podcast_id) {
 
-  console.log(category_id, category_name, podcast_id)
     $.get( `../data/categories/${category_id}.json`, function( result ) {
 
       var podcasts = result.data.podcasts
 
       var result = podcasts.filter(x => x.id === podcast_id)[0];
-
-      console.log(result)
 
       var podcast_title = result.title;
       var podcast_image = result.image;
@@ -18,7 +15,7 @@ function getPlaylist(category_id, category_name, podcast_id) {
       
       $('#podcast').html(`
       <div id="playlist">
-        <h3 class="category_title">${category_name}</h3>
+        <h3 class="category_title"><a href="#" class="category_back" onclick="backToCategory(\'${category_id}'\)"><i class="fas fa-chevron-left"></i></a> ${category_name}</h3>
         <br>
         <div class="row row-eq-height">
           <div class="col-xs-2">
@@ -40,14 +37,28 @@ function getPlaylist(category_id, category_name, podcast_id) {
 
   }  
 
+    // Handle Ajax Call
+    var requestCache = {};
+
+    function LoadDataFromApi(apiUrl) {
+      if (!requestCache[apiUrl]) {
+        requestCache[apiUrl] = $.ajax({
+            type: 'GET',
+            url: apiUrl,
+            dataType: "json"
+        });
+      }
+
+      return requestCache[apiUrl];
+    }
+    
 // Get Podcast Episodes
 function getEpisodes(podcast_id) {
+
   LoadDataFromApi(`../data/episodes/${podcast_id}.json`)
   .then(function (result) {
 
   var data = result.data.episodes
-
-  console.log(data)
 
   $.map(data, function(y, i) {
 
@@ -144,3 +155,11 @@ function playlistPlayer(podcast_id, episode_id) {
 
   })
 }
+
+function backToCategory(category_id) {
+
+  // bersihin halaman
+  $('#podcast').empty()
+  category(category_id)
+
+}  
