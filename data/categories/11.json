@@ -13,14 +13,14 @@
 			"description": "a friend who tell stories. why? because there are many things that must be okay",
 			"author": "Rintiksedu",
 			"language": "ID",
-			"image": "../images/podcasts/rintik.jpg"
+			"image": "images/podcasts/rintik.jpg"
 		}, {
 			"id": "112",
 			"title": "Kita dan Waktu",
 			"description": "Di sini, semua tersimpan abadi via suara. Tentang kisah kita dan waktu yang berperan mendewasakan, kita tumbuh meski tak utuh. | Sebuah karya tulisan oleh @helobagas — selamat mendengarkan :)",
 			"author": "helobagas",
 			"language": "ID",
-			"image": "../images/podcasts/waktu.jpg"
+			"image": "images/podcasts/waktu.jpg"
         },
         {
 			"id": "113",
@@ -28,14 +28,14 @@
 			"description": "@rezachandika, @ankatama, @radhini_ dan @nastashabigail bukan geng nero, anti cuap sembrono. Obrolan hari-hari standar, sengaja direkam untuk disebar, wkwk. Bukan bermaksud mistis, tapi #BagiRapot setiap hari Kamis.",
 			"author": "RezaAnkaRadhiniAbigail Potkes",
 			"language": "ID",
-			"image": "../images/podcasts/rapot.jpg"
+			"image": "images/podcasts/rapot.jpg"
 		}, {
 			"id": "114",
 			"title": "Hello Goodbye",
 			"description": "Hello Goodbye adalah podcast drama adaptasi dari sebuah buku berjudul sama, berisikan cerita-cerita pendek mengenai perpisahan dan pertemuan.",
 			"author": "Box2BoxID x HelloGoodbye",
 			"language": "ID",
-			"image": "../images/podcasts/goodbye.jpg"
+			"image": "images/podcasts/goodbye.jpg"
         },
         {       
 			"id": "115",
@@ -43,7 +43,7 @@
 			"description": "Podcast milik Raditya Dika dengan tema obrolan tentang keuangan, keluarga, industri kreatif, dan hal-hal di antaranya. Episode baru seminggu sekali.",
 			"author": "Raditya Dika",
 			"language": "ID",
-			"image": "../images/podcasts/pord.png"
+			"image": "images/podcasts/pord.png"
         },
         {       
 			"id": "116",
@@ -51,7 +51,7 @@
 			"description": "Podcast ini akan berbahasa campuran antara bahasa Indonesia dan Jawa. Jadi tidak 100% full bahasa Jawa. Selamat menikmati. Sugeng mirengke podcast niki lurr!",
 			"author": "Wahyu Aji Pamungkas",
 			"language": "ID",
-			"image": "../images/podcasts/jawa.jpg"
+			"image": "images/podcasts/jawa.jpg"
         }
     ]
 	}

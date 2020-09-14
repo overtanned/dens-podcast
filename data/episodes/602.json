@@ -11,21 +11,21 @@
 			"id": "0061",
             "title": "Pocong Bayi | Lapak Horor",
             "description": "Kejadian horor yang aku alami bersama sahabatku Rahmat di sekitaran kampus UMS. Malam itu kami baru pulang dari seorang kawan yang tinggal di sekitar UNS dan kami melewati kebun lebat yang tidak terurus.",
-            "link": "../audio/SoundHelix-Song-2.mp3",
+            "link": "audio/SoundHelix-Song-2.mp3",
 			"length": "12345"
 		}, 
 		{
 			"id": "0062",
             "title": "Jalanan Angker | Lapak Horor",
             "description": "Sebuah jalanan angker yang kerap memakan korban kecelakaan di percaya masyarakat sekitar karean ulah mahluk gaib penunggu ruas jalan itu. Konon ada sosok hantu yang tidak biasa disana. Sosok yang kerap mengganggu pengendara saat tengah malam tiba itu adalah sosok hantu pohon dengan kepala bergelayutan.",
-            "link": "../audio/SoundHelix-Song-3.mp3",
+            "link": "audio/SoundHelix-Song-3.mp3",
 			"length": "12345"
 		},
 		{
 			"id": "0063",
             "title": "Rumah dan Sumur Tua | Lapak Horor",
             "description": "Ada sebuah rumah yang tergolong tidak lazim karena memiliki sebuah sumur tua di tengahnya yang dibiarkan begitu saja. Rumah itu cukup besar dengan kamar yang berjumlah 8 kamar.",
-            "link": "../audio/SoundHelix-Song-4.mp3",
+            "link": "audio/SoundHelix-Song-4.mp3",
 			"length": "12345"
 		}
 	]

@@ -58,8 +58,9 @@
 /* Podcast Reccomendation */
 
 /* Owl Carousel */
-#podcast .owl-stage-outer {
-    overflow: visible;
+.owl-carousel .owl-stage-outer {
+    padding: 20px;
+    margin: -20px;
 }
 
 #podcast .owl-prev, #podcast .owl-next {
@@ -69,6 +70,7 @@
     display: block !important;
     border:0px solid black;
 }
+
 #podcast .owl-prev { 
     left: -50px; 
 }
@@ -76,6 +78,40 @@
 #podcast .owl-next { 
     right: -50px; 
 }
+
+/* XS */
+@media only screen and (max-width: 767px) {
+    #podcast .owl-prev { 
+        left: -30px; 
+    }
+
+    #podcast .owl-next { 
+        right: -30px; 
+    }
+}
+
+/* SM */
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+    #podcast .owl-prev { 
+        left: -40px; 
+    }
+
+    #podcast .owl-next { 
+        right: -40px; 
+    }
+}
+
+/* MD */
+@media only screen and (min-width: 992px) and (max-width: 1999px)  {
+    #podcast .owl-prev { 
+        left: -50px; 
+    }
+
+    #podcast .owl-next { 
+        right: -50px; 
+    }
+}
+
 
 #podcast .owl-theme .owl-nav [class*=owl-]:hover {
     background: none;
@@ -86,7 +122,12 @@
 }
 
 #podcast .owl-next i, #podcast .owl-prev i {
-    font-size: 3.5em;
+    font-size: 3.25em;
+}
+
+#podcast .owl-theme .owl-nav .disabled {
+    opacity: 0;
+    cursor: default;
 }
 
 #podcast .owl-next:focus, #podcast .owl-prev:focus {

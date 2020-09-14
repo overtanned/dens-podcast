@@ -1,8 +1,12 @@
-
 // Playlist 
 function getPlaylist(category_id, category_name, podcast_id) {
 
-    $.get( `../data/categories/${category_id}.json`, function( result ) {
+    // Fade In Animation 
+    $('#podcast, #dummy-footer').css('display', 'none');
+    $('#podcast, #dummy-footer').fadeIn(1000);
+
+      LoadDataFromApi(`data/categories/${category_id}.json`)
+      .then(function (result) {
 
       var podcasts = result.data.podcasts
 
@@ -12,16 +16,18 @@ function getPlaylist(category_id, category_name, podcast_id) {
       var podcast_image = result.image;
       var podcast_desc = result.description;
       var podcast_author = result.author;
-      
+
+      getEpisodes(podcast_id)
+
       $('#podcast').html(`
       <div id="playlist">
         <h3 class="category_title"><a href="#" class="category_back" onclick="backToCategory(\'${category_id}'\)"><i class="fas fa-chevron-left"></i></a> ${category_name}</h3>
         <br>
         <div class="row row-eq-height">
-          <div class="col-xs-2">
+          <div class="col-xs-4 col-sm-3 col-md-2">
             <img src=${podcast_image} class="podcast-cover-${podcast_id} img-responsive" alt=${podcast_title} />
           </div>
-          <div class="podcast_info col-xs-10">
+          <div class="podcast_info col-xs-8 col-sm-9 col-md-10">
             <h4>${podcast_title}</h4>
             <p>by ${podcast_author}</p>
             <p>${podcast_desc}</p>
@@ -32,39 +38,25 @@ function getPlaylist(category_id, category_name, podcast_id) {
       </div>
       `);  
       })
-
-      getEpisodes(podcast_id)
-
   }  
-
-    // Handle Ajax Call
-    var requestCache = {};
-
-    function LoadDataFromApi(apiUrl) {
-      if (!requestCache[apiUrl]) {
-        requestCache[apiUrl] = $.ajax({
-            type: 'GET',
-            url: apiUrl,
-            dataType: "json"
-        });
-      }
-
-      return requestCache[apiUrl];
-    }
     
 // Get Podcast Episodes
 function getEpisodes(podcast_id) {
 
-  LoadDataFromApi(`../data/episodes/${podcast_id}.json`)
+  LoadDataFromApi(`data/episodes/${podcast_id}.json`)
   .then(function (result) {
 
   var data = result.data.episodes
+
+  console.log(data)
 
   $.map(data, function(y, i) {
 
     var episode_id = y.id;
     var episode_title = y.title;
     var episode_desc = y.description.slice(0,300);
+
+    console.log(episode_title)
 
       $('#playlist-items').append(`
       <div class="episode-${episode_id}" onclick="playlistPlayer(\'${podcast_id}'\,\'${episode_id}'\)">
@@ -86,7 +78,7 @@ function getEpisodes(podcast_id) {
 
 // Customized Player for Playlist Page
 function playlistPlayer(podcast_id, episode_id) {
-  LoadDataFromApi(`../data/episodes/${podcast_id}.json`)
+  LoadDataFromApi(`data/episodes/${podcast_id}.json`)
   .then(function (result) {
 
     var episodes = result.data.episodes
@@ -100,21 +92,21 @@ function playlistPlayer(podcast_id, episode_id) {
     $( "#player" ).show().html(`
     <div class="container-fluid">
       <div class="row row-eq-height">
-        <div class="col-md-1">
+        <div class="col-xs-3 col-sm-2 col-md-1">
           <img src=${podcast_image} class="img-responsive" alt="">
         </div>
-        <div class="col-md-2">
+        <div class="hidden-xs hidden-sm col-md-2">
           <h6>${episode_title}</h6>
           <p>${episode_desc}</p>
         </div>
-        <div id="player-container"class="col-md-6 text-center">
+        <div id="player-container"class="col-xs-9 col-sm-8 col-md-6 text-center">
           <audio id="podcast-player" ontimeupdate="initProgressBar()">
             <source src=${episode_file} type="audio/mp3">
           </audio>
   
           <div class="player-controls"> 
-            <img src="../images/icons/pause.svg" class="pause" onclick="pause()" alt="">
-            <img src="../images/icons/play.svg" class="play" onclick="play()" alt="">
+            <img src="images/icons/pause.svg" class="pause" onclick="pause()" alt="">
+            <img src="images/icons/play.svg" class="play" onclick="play()" alt="">
             <div class="clearfix"></div>
   
             <div class="row">
@@ -133,7 +125,7 @@ function playlistPlayer(podcast_id, episode_id) {
             
           </div>
         </div>
-        <div id="volume" class="col-md-3">
+        <div id="volume" class="hidden-xs col-sm-2 col-md-3">
           <div class="row">
             <div class="col-xs-2 text-right">
               <img src="images/icons/volume-down.svg" class="volumeDown" onclick="volumeDown()" alt="">
@@ -152,14 +144,15 @@ function playlistPlayer(podcast_id, episode_id) {
     stopAllAudio(); // stop all other audio before playing a new one
     play();
 
-
   })
 }
 
 function backToCategory(category_id) {
-
+  $('#podcast, #dummy-footer').css('display', 'none');
   // bersihin halaman
   $('#podcast').empty()
+  // load homepage content
   category(category_id)
-
+  // fadeIn animation
+  $('#podcast, #dummy-footer').fadeIn(1000);
 }  

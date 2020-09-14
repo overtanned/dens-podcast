@@ -18,7 +18,7 @@
                         "description": "Podcast milik Raditya Dika dengan tema obrolan tentang keuangan, keluarga, industri kreatif, dan hal-hal di antaranya. Episode baru seminggu sekali.",
                         "author": "Raditya Dika",
                         "language": "ID",
-                        "image": "../images/podcasts/pord.png"
+                        "image": "images/podcasts/pord.png"
                     },
                     {       
                         "id": "004",
@@ -26,7 +26,7 @@
                         "description": "Podcast ini akan berbahasa campuran antara bahasa Indonesia dan Jawa. Jadi tidak 100% full bahasa Jawa. Selamat menikmati. Sugeng mirengke podcast niki lurr!",
                         "author": "Wahyu Aji Pamungkas",
                         "language": "ID",
-                        "image": "../images/podcasts/jawa.jpg"
+                        "image": "images/podcasts/jawa.jpg"
                     },
                     {
                         "id": "005",
@@ -34,7 +34,7 @@
                         "description": "Hi English learners! Welcome to SET (Speak English Today), a weekly podcast where we have a 15-minute (or so) conversation. Each episode, we will dive into an interesting topic, whether it’s talking about cultures, exploring current issues, or interviewing guest stars. Hope you find our podcast useful for improving your English skills. If this is your first time listening to us, and you like our show, please leave a comment and follow. With Love, Gio and Kiky.",
                         "author": "English Today",
                         "language": "ID",
-                        "image": "../images/podcasts/english.jpg"
+                        "image": "images/podcasts/english.jpg"
                     },
                     {       
                         "id": "006",
@@ -42,7 +42,7 @@
                         "description": "Untuk mencapai tujuan keuangan, tentu kita butuh cara dan instrumennya. Kalau kamu mulai dari uang kecil, coba deh mulai investasi di reksadana dan saham.",
                         "author": "Yossy Girsang",
                         "language": "ID",
-                        "image": "../images/podcasts/reksadana.jpg"
+                        "image": "images/podcasts/reksadana.jpg"
                     }
             ]
 			},
@@ -56,7 +56,7 @@
                         "description": "The day’s top stories from BBC News. Delivered twice a day on weekdays, daily at weekends",
                         "author": "BBC World Service",
                         "language": "EN",
-                        "image": "../images/podcasts/bbc.jpg"
+                        "image": "images/podcasts/bbc.jpg"
                     }, 
                     {
                         "id": "003",
@@ -64,7 +64,7 @@
                         "description": "Every weekday, TED Talks Daily brings you the latest talks in audio. Join host and journalist Elise Hu for thought-provoking ideas on every subject imaginable — from Artificial Intelligence to Zoology, and everything in between — given by the world's leading thinkers and creators. With TED Talks Daily, find some space in your day to change your perspectives, ignite your curiosity, and learn something new.",
                         "author": "TED",
                         "language": "EN",
-                        "image": "../images/podcasts/ted.png"
+                        "image": "images/podcasts/ted.png"
                     }
             ]
 			}

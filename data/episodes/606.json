@@ -11,28 +11,28 @@
 			"id": "0061",
             "title": "Katarak",
             "description": "cerita dari @cessy_physio",
-            "link": "../audio/SoundHelix-Song-6.mp3",
+            "link": "audio/SoundHelix-Song-6.mp3",
 			"length": "12345"
 		}, 
 		{
 			"id": "0062",
             "title": "Boneka Belanda",
             "description": "Cerita dari @shaaaffaaa",
-            "link": "../audio/SoundHelix-Song-1.mp3",
+            "link": "audio/SoundHelix-Song-1.mp3",
 			"length": "12345"
 		},
 		{
 			"id": "0063",
             "title": "Ibu",
             "description": "Cerita ditulis dan dinarasikan oleh @patricia.wulandari dalam segmen kolaborasi bersama Podcast Main Mata",
-            "link": "../audio/SoundHelix-Song-2.mp3",
+            "link": "audio/SoundHelix-Song-2.mp3",
 			"length": "12345"
         },
 		{
 			"id": "0064",
             "title": "Diam-diam Datang",
             "description": "Cerita dari @irmawidiantikarinaputri dan dinarasikan oleh @devianviana dalam segmen kolaborasi bersama Podcast Main Mata",
-            "link": "../audio/SoundHelix-Song-3.mp3",
+            "link": "audio/SoundHelix-Song-3.mp3",
 			"length": "12345"
         }        
 	]

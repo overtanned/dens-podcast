@@ -24,18 +24,19 @@ live-server
 <br>**03/09/2020**: Simplify AJAX Call, Simplify JS Functions, JSON Data Entry
 <br>**04/09/2020**: Implement Playlist Page Player for each Episodes
 <br>**07/09/2020**: Podcast Category Page, Podcast Subcategory
-<br>**09/09/2020**: Penyesuaian dengan API (Podcast Categories, List Podcast by Category, Podcast Episodes)
-<br>**10/09/2020**: Penyesuaian dengan API Podcast Categories & Content, Fix Player UI in small viewport, Penambahan Hover animation
+<br>**09/09/2020**: Penyesuaian struktur JSON (Podcast Categories, List Podcast by Category, Podcast Episodes)
+<br>**10/09/2020**: Penyesuaian struktur JSON Podcast Categories & Content, Fix Player UI in small viewport, Penambahan Hover animation
 <br>**11/09/2020**: Tombol Back pada halaman Category & Playlist sudah berfungsi
+<br>**14/09/2020**: Perbaikan Path, Lokalisasi Beberapa Plugin, Perbaikan Chain Promises di Homepage, Page Animation, Perbaikan Responsive di Mobile View
 
 ## To Do List
-<br>- Responsive Web Design Testing
-<br>- FIx Issues
+<br>- Responsive Web Design Testing di Tablet
+<br>- Fix Issues
 
 ## Known Issues
-<br>- Category kadang tidak terload di homepage
+<br>- Terkadang thumbnail tampil besar ketika loading
+<br>- Owl Carousel Overflow Visible masih buggy di Mobile View
 <br>- Player ketika load duration muncul NaN:NaN sebentar
-<br>- Footer naik ke atas ketika tombol back ditekan
 
 ## Things Worth Noticing
 <br>- Tiap Episode perlu upload date?

@@ -11,28 +11,28 @@
 			"id": "0061",
             "title": "Kuntilanak Itu Bernama 'Mbak Legi'",
             "description": "Jumpa lagi di udara bersama Bimo dan Dhanu. Salah satu cerita terseram yang pernah kami baca, datang dari pengalaman seorang Teman Kliwon saat ia masih menginjak bangku SMP. Selamat mendengarkan, tabik.",
-            "link": "../audio/SoundHelix-Song-5.mp3",
+            "link": "audio/SoundHelix-Song-5.mp3",
 			"length": "12345"
 		}, 
 		{
 			"id": "0062",
             "title": "Bercak Darah Misterius di Mall Jakarta Pusat",
             "description": "Halo, kembali bersama Podcast Malam Kliwon. Capek juga bikin deskripsi, mending langsung dengerin aja ya. Selamat mendengarkan, tabik.",
-            "link": "../audio/SoundHelix-Song-6.mp3",
+            "link": "audio/SoundHelix-Song-6.mp3",
 			"length": "12345"
 		},
 		{
 			"id": "0063",
             "title": "Kisah Mistis Guru Sekolah Jembrana, Bali",
             "description": "Kembali lagi bersama Bimo dan Dhanu di Podcast Malam Kliwon. Kali ini, cerita berdatangan dari sebuah sekolah di Jembrana, salon keluarga yang diguna-guna hingga setahun lamanya, hingga pengalaman mistis saat orientasi kampus di Kalimantan. Selamat mendengarkan, tabik.",
-            "link": "../audio/SoundHelix-Song-1.mp3",
+            "link": "audio/SoundHelix-Song-1.mp3",
 			"length": "12345"
         },
 		{
 			"id": "0064",
             "title": "Hancurnya Penampakan Dua Korban Kecelakaan, Batujajar, Bandung",
             "description": "Kali ini cerita datang dari Batujajar, salah satu kota perbatasan Jawa Tengah dan Jawa Timur, hingga seramnya wilayah bekas konflik di Kalimantan. Selamat mendengarkan, tabik.",
-            "link": "../audio/SoundHelix-Song-2.mp3",
+            "link": "audio/SoundHelix-Song-2.mp3",
 			"length": "12345"
         }        
 	]

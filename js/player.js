@@ -1,13 +1,12 @@
 // Player
 function player(podcast_id) {
 
-
-    $.get( `../data/episodes/${podcast_id}.json`, function( result ) {
+    $.get( `data/episodes/${podcast_id}.json`, function( result ) {
 
     var newest_episode = result.data.episodes[0]
 
     var title = newest_episode.title.slice(0,30);
-    // var image = '../images/noimage.jpg';
+    // var image = 'images/noimage.jpg';
     var image = $(`.podcast-cover-${podcast_id}`).attr('src')
     var desc = newest_episode.description.slice(0,50);
     var link = newest_episode.link;
@@ -28,8 +27,8 @@ function player(podcast_id) {
         </audio>
 
         <div class="player-controls"> 
-          <img src="../images/icons/pause.svg" class="pause" onclick="pause()" alt="">
-          <img src="../images/icons/play.svg" class="play" onclick="play()" alt="">
+          <img src="images/icons/pause.svg" class="pause" onclick="pause()" alt="">
+          <img src="images/icons/play.svg" class="play" onclick="play()" alt="">
           <div class="clearfix"></div>
 
           <div class="row">
@@ -70,7 +69,7 @@ function player(podcast_id) {
 })
 }
 
-function initProgressBar() {
+  function initProgressBar() {
     var player = document.getElementById('podcast-player');
     var length = player.duration
     var current_time = player.currentTime;
@@ -125,7 +124,7 @@ function initProgressBar() {
     $('.pause').show();
   }
 
-  function stopAllAudio(){
+  function stopAllAudio() {
     var allAudios = document.querySelectorAll('audio');
       allAudios.forEach(function(audio){
           audio.pause();

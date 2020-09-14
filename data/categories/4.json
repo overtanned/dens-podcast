@@ -13,7 +13,7 @@
 			"description": "Every weekday, TED Talks Daily brings you the latest talks in audio. Join host and journalist Elise Hu for thought-provoking ideas on every subject imaginable — from Artificial Intelligence to Zoology, and everything in between — given by the world's leading thinkers and creators. With TED Talks Daily, find some space in your day to change your perspectives, ignite your curiosity, and learn something new.",
 			"author": "TED",
 			"language": "EN",
-			"image": "../images/podcasts/ted.png"
+			"image": "images/podcasts/ted.png"
 		}, 
 		{
 			"id": "402",
@@ -21,7 +21,7 @@
 			"description": "Hi English learners! Welcome to SET (Speak English Today), a weekly podcast where we have a 15-minute (or so) conversation. Each episode, we will dive into an interesting topic, whether it’s talking about cultures, exploring current issues, or interviewing guest stars. Hope you find our podcast useful for improving your English skills. If this is your first time listening to us, and you like our show, please leave a comment and follow. With Love, Gio and Kiky.",
 			"author": "English Today",
 			"language": "ID",
-			"image": "../images/podcasts/english.jpg"
+			"image": "images/podcasts/english.jpg"
         },
         {
 			"id": "403",
@@ -29,7 +29,7 @@
 			"description": "Podcast #Revolusi Edukasi adalah podcast MejaKita yang diproduksi Nukilan media yang berbincang secara eksklusif terkait pendidikan. Dihost oleh Aktsa Efendy, podcast Revolusi Edukasi berharap menjadi wadah untuk berdiskursus terkait teori serta filasafat pendidikan yang dianut oleh MejaKita Group, serta aspirasi & mimpi-mimpi kami untuk pendidikan Indonesia. #RevolusiEdukasi sekarang & selamanya! Ngobrol yuk bareng kami lewat DM @MejaKita atau email: aktsa@mejakita.com",
 			"author": "MejaKita",
 			"language": "ID",
-			"image": "../images/podcasts/revolusi.png"
+			"image": "images/podcasts/revolusi.png"
         }, 
         {
 			"id": "404",
@@ -37,7 +37,7 @@
 			"description": "Senyum Anak Nusantara (SAN), merupakan sebuah komunitas sosial berbasis volunteer. Tujuan didirikan nya SAN adalah sebagai wadah bagi para generasi muda Indonesia yang mempunyai jiwa sosial tinggi, untuk bergerak dan beraksi bersama dalam satu naungan visi misi. Sasaran utama komunitas SAN adalah anak anak. SAN mempunyai target utama untuk menyebarkan misi 3M (Memotivasi, Menginspirasi serta Mengedukasi). Podcast ini hadir untuk memberikan edukasi dan informasi terkait berita atau materi yang dibutuhkan oleh para pendengar podcast terutama kepada anak usia sekolah oleh SAN Bandung.",
 			"author": "SAN Bandung 2020",
 			"language": "ID",
-			"image": "../images/podcasts/daring.png"
+			"image": "images/podcasts/daring.png"
         },
         {       
 			"id": "405",
@@ -45,7 +45,7 @@
 			"description": "Teach Me, Teacher is a podcast for educators where teachers discuss topical, informative, and inspiring subjects. Designed from the ground up as a no nonsense approach to teacher development, this podcast is your gateway to bettering your craft (and having some laughs along the way). Our podcast is fueled by the idea that teachers learn best from other teachers IN the classroom. Every episode will be filled with real world discussions about what it is like in classrooms today, and how to manage, develop, and prosper in this new world of education. See you in the classroom!",
 			"author": "Teach Me, Teacher LLC",
 			"language": "EN",
-			"image": "../images/podcasts/teacher.jpg"
+			"image": "images/podcasts/teacher.jpg"
         },
         {       
 			"id": "406",
@@ -53,7 +53,7 @@
 			"description": "The Preschool Podcast, brought to you by HiMama, is a platform for learning from leading professionals in early childhood education. If you work in a daycare, childcare or preschool setting, The Preschool Podcast will provide you with both practical advice for managing your organization, center or classroom, as well as thought provoking content and insights about the field of early childhood education.",
 			"author": "HiMama",
 			"language": "EN",
-			"image": "../images/podcasts/preschool.png"
+			"image": "images/podcasts/preschool.png"
         }
     ]
 	}

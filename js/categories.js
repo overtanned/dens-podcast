@@ -1,21 +1,10 @@
   function category(category_id) {
 
-    // Handle Ajax Call
-    var requestCache = {};
+    // Fade In Animation 
+    $('#podcast, #dummy-footer').css('display', 'none');
+    $('#podcast, #dummy-footer').fadeIn(1000);
 
-    function LoadDataFromApi(apiUrl) {
-      if (!requestCache[apiUrl]) {
-        requestCache[apiUrl] = $.ajax({
-            type: 'GET',
-            url: apiUrl,
-            dataType: "json"
-        });
-      }
-
-      return requestCache[apiUrl];
-    }
-
-    LoadDataFromApi(`../data/subcategories/${category_id}.json`)
+    LoadDataFromApi(`data/subcategories/${category_id}.json`)
     .then(function (result) {
 
       var data = result.data;
@@ -73,10 +62,12 @@
     .fail(function(){ alert('Belom ada isi contentnya ya') })
   }
 
-  function backToHomepage() {
-
+  backToHomepage = () => {
+    $('#podcast, #dummy-footer').css('display', 'none');
     // bersihin halaman
     $('#podcast').empty()
+    // load homepage content
     homepage()
-
+    // fadeIn animation
+    $('#podcast, #dummy-footer').fadeIn(1000);
   }  

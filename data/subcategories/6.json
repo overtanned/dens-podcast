@@ -18,7 +18,7 @@
                     "description": "podcast gabut yang cerita cerita tentang pengalaman horor, Di bumbui dengan sedikit kekonyolan didalamnya Kalo mau kirim kirim cerita bisa langsung aja kirim ke tongkronganhoror@gmail.com follow ignya di @tong_kronganku Sama Twitter nya Di @tongkronganH cheers!!",
                     "author": "cerita horor tongkrongan",
                     "language": "ID",
-                    "image": "../images/podcasts/tongkrongan.jpg"
+                    "image": "images/podcasts/tongkrongan.jpg"
                 }, 
                 {
                     "id": "602",
@@ -26,7 +26,7 @@
                     "description": "Lapak Horor adalah channel podcast yang berisi berbagai kisah seram, horor, dan misteri. Subscribe channel Youtube 'Lapak Horor' untuk mendapatkan cerita terupdate.",
                     "author": "Lapak Horor",
                     "language": "ID",
-                    "image": "../images/podcasts/lapak.jpg"
+                    "image": "images/podcasts/lapak.jpg"
                 },
                 {
                     "id": "603",
@@ -34,7 +34,7 @@
                     "description": "Suara Horor merupakan salah satu segmen dari Podcast Suara Hati yang ada di YouTube. Di Suara Horor ini kita akan membahas seputar hal-hal yg berkaitan dengan mistis/horor, mulai dari ngebacain Thread Horor dan cerita kisah Horor/mistis yg pernah di alami oleh sebagian orang. So Stay Tune on this Podcast !!! Support this podcast: https://anchor.fm/suarahoror/support",
                     "author": "suara hati",
                     "language": "ID",
-                    "image": "../images/podcasts/suara.png"
+                    "image": "images/podcasts/suara.png"
                 },
                 {       
                     "id": "605",
@@ -42,7 +42,7 @@
                     "description": "Dalam podcast ini, Bimo dan Dhanu mengulas segala hal yang erat kaitannya dengan dunia mistis. Kami juga membacakan pengalaman-pengalaman mistis kiriman dari Teman Kliwon. Ikuti kanal media sosial kami di @podcastmalamkliwon.",
                     "author": "Ramadhanu Rizkinuriza",
                     "language": "ID",
-                    "image": "../images/podcasts/kliwon.jpg"
+                    "image": "images/podcasts/kliwon.jpg"
                 },
                 {       
                     "id": "606",
@@ -50,7 +50,7 @@
                     "description": "Kumpulan Cerita Horor True Story. Kurasi cerita oleh @mizter.popo. Follow & kirim pesan ke Instagram @podcasthoror.id untuk diskusi dan berbagi kisah / pengalaman horor kalian.",
                     "author": "Cerita Horor True Story",
                     "language": "ID",
-                    "image": "../images/podcasts/doyousee.jpg"
+                    "image": "images/podcasts/doyousee.jpg"
                 }
             ]
 			},
@@ -63,7 +63,7 @@
                     "description": "Weekly horror podcast dedicated to covering all the latest horror film releases since 2016. Available on all major podcast services.",
                     "author": "Super Horror Bros",
                     "language": "ID",
-                    "image": "../images/podcasts/superhorror.jpg"
+                    "image": "images/podcasts/superhorror.jpg"
 				}]
 			}
 		]
