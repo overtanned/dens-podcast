@@ -31,9 +31,9 @@ body {
 /* Dummy Footer */
 
 /* Helper Class */
-.row-eq-height {
+#playlist-items .row-eq-height {
     display: flex;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
 }
 
 .vertical-align {

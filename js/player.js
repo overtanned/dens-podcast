@@ -11,6 +11,8 @@ function player(podcast_id) {
     var desc = newest_episode.description.slice(0,50);
     var link = newest_episode.link;
 
+    console.log(link)
+
   $( "#player" ).show().html(`
   <div class="container-fluid">
     <div class="row row-eq-height">
@@ -22,8 +24,7 @@ function player(podcast_id) {
         <p>${desc}</p>
       </div>
       <div id="player-container"class="col-xs-9 col-sm-8 col-md-6 text-center">
-        <audio id="podcast-player" ontimeupdate="initProgressBar()">
-          <source src=${link} type="audio/mp3">
+        <audio id="podcast-player" src=${link} type="audio/mp3" ontimeupdate="initProgressBar()" autoplay>
         </audio>
 
         <div class="player-controls"> 

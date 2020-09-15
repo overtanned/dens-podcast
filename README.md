@@ -28,12 +28,14 @@ live-server
 <br>**10/09/2020**: Penyesuaian struktur JSON Podcast Categories & Content, Fix Player UI in small viewport, Penambahan Hover animation
 <br>**11/09/2020**: Tombol Back pada halaman Category & Playlist sudah berfungsi
 <br>**14/09/2020**: Perbaikan Path, Lokalisasi Beberapa Plugin, Perbaikan Chain Promises di Homepage, Page Animation, Perbaikan Responsive di Mobile View
+<br>**15/09/2020**: Fix Beberapa Layout yang berantakan di Safari
 
 ## To Do List
 <br>- Responsive Web Design Testing di Tablet
 <br>- Fix Issues
 
 ## Known Issues
+<br>- Player tidak jalan di Safari
 <br>- Terkadang thumbnail tampil besar ketika loading
 <br>- Owl Carousel Overflow Visible masih buggy di Mobile View
 <br>- Player ketika load duration muncul NaN:NaN sebentar

@@ -48,15 +48,11 @@ function getEpisodes(podcast_id) {
 
   var data = result.data.episodes
 
-  console.log(data)
-
   $.map(data, function(y, i) {
 
     var episode_id = y.id;
     var episode_title = y.title;
     var episode_desc = y.description.slice(0,300);
-
-    console.log(episode_title)
 
       $('#playlist-items').append(`
       <div class="episode-${episode_id}" onclick="playlistPlayer(\'${podcast_id}'\,\'${episode_id}'\)">
@@ -88,6 +84,8 @@ function playlistPlayer(podcast_id, episode_id) {
     var episode_file = episode.link;
     var episode_desc = episode.description.slice(0,50);
     var episode_title = episode.title.slice(0,30);
+
+    console.log(episode_file)
 
     $( "#player" ).show().html(`
     <div class="container-fluid">
