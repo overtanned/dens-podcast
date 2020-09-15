@@ -10,6 +10,12 @@
     display: none;
 }
 
+#player .row-eq-height {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #player .container-fluid {
     margin: 15px 5%;
 }

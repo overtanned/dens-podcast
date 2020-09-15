@@ -40,3 +40,8 @@
     background: #36373A;
     cursor: pointer;
   }
+
+  #playlist-items .row-eq-height {
+    display: flex;
+    /* flex-flow: row wrap; */
+}

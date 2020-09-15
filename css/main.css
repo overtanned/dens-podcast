@@ -31,10 +31,6 @@ body {
 /* Dummy Footer */
 
 /* Helper Class */
-#playlist-items .row-eq-height {
-    display: flex;
-    /* flex-flow: row wrap; */
-}
 
 .vertical-align {
     display: flex;
