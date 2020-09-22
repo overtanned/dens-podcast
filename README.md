@@ -29,16 +29,16 @@ live-server
 <br>**11/09/2020**: Tombol Back pada halaman Category & Playlist sudah berfungsi
 <br>**14/09/2020**: Perbaikan Path, Lokalisasi Beberapa Plugin, Perbaikan Chain Promises di Homepage, Page Animation, Perbaikan Responsive di Mobile View
 <br>**15/09/2020**: Fix Beberapa Layout yang berantakan di Safari
+<br>**22/09/2020**: Fix Player ketika load duration muncul NaN:NaN sebentar, Perbaikan Format Total Duration
 
 ## To Do List
 <br>- Responsive Web Design Testing di Tablet
+<br>- Testing di iOS
 <br>- Fix Issues
 
 ## Known Issues
-<br>- Player tidak jalan di Safari
-<br>- Terkadang thumbnail tampil besar ketika loading
+<br>- Ketika tekan tombol back terkadang thumbnail tampil besar ketika loading
 <br>- Owl Carousel Overflow Visible masih buggy di Mobile View
-<br>- Player ketika load duration muncul NaN:NaN sebentar
 
 ## Things Worth Noticing
 <br>- Tiap Episode perlu upload date?

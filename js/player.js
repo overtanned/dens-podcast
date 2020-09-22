@@ -24,7 +24,7 @@ function player(podcast_id) {
         <p>${desc}</p>
       </div>
       <div id="player-container"class="col-xs-9 col-sm-8 col-md-6 text-center">
-        <audio id="podcast-player" src=${link} type="audio/mp3" ontimeupdate="initProgressBar()" autoplay>
+        <audio id="podcast-player" src=${link} type="audio/mp3" ontimeupdate="initProgressBar()" preload="metadata" autoplay>
         </audio>
 
         <div class="player-controls"> 
@@ -76,8 +76,14 @@ function player(podcast_id) {
     var current_time = player.currentTime;
   
     // calculate total length of value
-    var totalLength = calculateTotalValue(length)
+    var totalLength = calculateTotalValue(length);
     document.getElementById("end-time").innerHTML = totalLength;
+
+    // Fix NaN:NaN on total duration
+    var podcast = document.getElementById("podcast-player");
+    podcast.onloadedmetadata = function() {
+      document.getElementById("end-time").innerHTML = '00:00';
+    };
   
     // calculate current value time
     var currentTime = calculateCurrentValue(current_time);
@@ -153,13 +159,17 @@ function player(podcast_id) {
   }
   
   function calculateTotalValue(length) {
-    var minutes = Math.floor(length / 60),
-      seconds_int = length - minutes * 60,
-      seconds_str = seconds_int.toString(),
-      seconds = seconds_str.substr(0, 2),
-      time = minutes + ':' + seconds
-  
-    return time;
+    // var minutes = Math.floor(length / 60),
+    //   seconds_int = length - minutes * 60,
+    //   seconds_str = seconds_int.toString(),
+    //   seconds = seconds_str.substr(0, 2),
+    //   time = minutes + ':' + seconds
+
+    var date = new Date(1970,0,1);
+    date.setSeconds(length);
+    return date.toTimeString().replace(/.*(\d{2}:\d{2}).*/, "$1");
+
+    // return time;
   }
   
   function calculateCurrentValue(currentTime) {

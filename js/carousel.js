@@ -3,6 +3,7 @@ function loadOwlCarousel() {
 
   $('.owl-carousel').owlCarousel({
     loop:false,
+    lazyLoad: true,
     margin:20,
     nav:true,
     navText : ['<i class="icon ion-ios-arrow-left"></i>','<i class="icon ion-ios-arrow-right"></i>'],
