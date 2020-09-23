@@ -62,7 +62,7 @@ function getEpisodes(podcast_id) {
               </div>
               <div class="col-xs-10 col-md-11 nopadding">
                   <h6 class="title">${episode_title}</h6>
-                  <p class="desc hidden-xs">${episode_desc}</p>
+                  <p class="desc">${episode_desc}</p>
               </div>
           </div>
       </div>

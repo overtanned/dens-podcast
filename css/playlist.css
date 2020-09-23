@@ -34,6 +34,7 @@
 
 #playlist-items [class^="episode-"] {
     border-bottom: 1px solid #36373A;
+    cursor: pointer;
   }
 
   #playlist-items [class^="episode-"]:hover {

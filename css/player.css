@@ -64,7 +64,9 @@
     
     #player progress[value] {
       -webkit-appearance: none;
+      -moz-appearance: none;
       appearance: none;
+      border: none;
       background-color: #696969;
       color: #fff;
       height: 4px;
@@ -75,6 +77,11 @@
       border-radius: 2px;
       border: 1px solid lighten(#696969, 20%);
       color: #fff;
+    }
+
+    #player progress[value]::-moz-progress-bar {
+        background-color: #fff;
+        border: none;
     }
     
     #player progress::-webkit-progress-value {

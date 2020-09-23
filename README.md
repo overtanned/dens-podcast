@@ -30,6 +30,7 @@ live-server
 <br>**14/09/2020**: Perbaikan Path, Lokalisasi Beberapa Plugin, Perbaikan Chain Promises di Homepage, Page Animation, Perbaikan Responsive di Mobile View
 <br>**15/09/2020**: Fix Beberapa Layout yang berantakan di Safari
 <br>**22/09/2020**: Fix Player ketika load duration muncul NaN:NaN sebentar, Perbaikan Format Total Duration
+<br>**23/09/2020**: Fix CSS Player di Mozilla, Fix Episode Description di layar kecil, Fix Invalid Date
 
 ## To Do List
 <br>- Responsive Web Design Testing di Tablet

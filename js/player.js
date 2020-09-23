@@ -81,8 +81,8 @@ function player(podcast_id) {
 
     // Fix NaN:NaN on total duration
     var podcast = document.getElementById("podcast-player");
-    podcast.onloadedmetadata = function() {
-      document.getElementById("end-time").innerHTML = '00:00';
+      podcast.onloadedmetadata = function() {
+      document.getElementById("end-time").innerHTML = '0:00';
     };
   
     // calculate current value time
@@ -158,18 +158,24 @@ function player(podcast_id) {
     });
   }
   
-  function calculateTotalValue(length) {
-    // var minutes = Math.floor(length / 60),
-    //   seconds_int = length - minutes * 60,
-    //   seconds_str = seconds_int.toString(),
-    //   seconds = seconds_str.substr(0, 2),
-    //   time = minutes + ':' + seconds
+  function calculateTotalValue(duration) {
 
-    var date = new Date(1970,0,1);
-    date.setSeconds(length);
-    return date.toTimeString().replace(/.*(\d{2}:\d{2}).*/, "$1");
+    // Hours, minutes and seconds
+    var hrs = ~~(duration / 3600);
+    var mins = ~~((duration % 3600) / 60);
+    var secs = ~~duration % 60;
 
-    // return time;
+    // Output like "1:01" or "4:03:59" or "123:03:59"
+    var ret = "";
+
+    if (hrs > 0) {
+        ret += "" + hrs + ":" + (mins < 10 ? "0" : "");
+    }
+
+    ret += "" + mins + ":" + (secs < 10 ? "0" : "");
+    ret += "" + secs;
+    return ret;
+
   }
   
   function calculateCurrentValue(currentTime) {
