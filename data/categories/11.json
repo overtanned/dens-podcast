@@ -52,6 +52,22 @@
 			"author": "Wahyu Aji Pamungkas",
 			"language": "ID",
 			"image": "images/podcasts/jawa.jpg"
+		},
+        {
+			"id": "601",
+			"title": "cerita horor tongkrongan",
+			"description": "podcast gabut yang cerita cerita tentang pengalaman horor, Di bumbui dengan sedikit kekonyolan didalamnya Kalo mau kirim kirim cerita bisa langsung aja kirim ke tongkronganhoror@gmail.com follow ignya di @tong_kronganku Sama Twitter nya Di @tongkronganH cheers!!",
+			"author": "cerita horor tongkrongan",
+			"language": "ID",
+			"image": "images/podcasts/tongkrongan.jpg"
+		},
+        {       
+			"id": "605",
+			"title": "Podcast Malam Kliwon",
+			"description": "Dalam podcast ini, Bimo dan Dhanu mengulas segala hal yang erat kaitannya dengan dunia mistis. Kami juga membacakan pengalaman-pengalaman mistis kiriman dari Teman Kliwon. Ikuti kanal media sosial kami di @podcastmalamkliwon.",
+			"author": "Ramadhanu Rizkinuriza",
+			"language": "ID",
+			"image": "images/podcasts/kliwon.jpg"
         }
     ]
 	}

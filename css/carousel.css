@@ -1,16 +1,16 @@
 /* Owl Carousel */
 .rotating-item { display:none }
 
-
 .owl-carousel .owl-stage-outer {
     padding: 20px;
     margin: -20px;
+    /* overflow: visible; */
 }
 
 #podcast .owl-prev, #podcast .owl-next {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 35%;
+    transform: translateY(-35%);
     display: block !important;
     border:0px solid black;
 }

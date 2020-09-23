@@ -52,6 +52,22 @@
 			"author": "Cerita Horor True Story",
 			"language": "ID",
 			"image": "images/podcasts/doyousee.jpg"
+		},
+        {
+			"id": "111",
+			"title": "Rintik Sedu",
+			"description": "a friend who tell stories. why? because there are many things that must be okay",
+			"author": "Rintiksedu",
+			"language": "ID",
+			"image": "images/podcasts/rintik.jpg"
+		}, 
+		{
+			"id": "112",
+			"title": "Kita dan Waktu",
+			"description": "Di sini, semua tersimpan abadi via suara. Tentang kisah kita dan waktu yang berperan mendewasakan, kita tumbuh meski tak utuh. | Sebuah karya tulisan oleh @helobagas — selamat mendengarkan :)",
+			"author": "helobagas",
+			"language": "ID",
+			"image": "images/podcasts/waktu.jpg"
         }
     ]
 	}

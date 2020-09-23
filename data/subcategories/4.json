@@ -35,6 +35,14 @@
                         "author": "SAN Bandung 2020",
                         "language": "ID",
                         "image": "images/podcasts/daring.png"
+                    },
+                    {       
+                        "id": "006",
+                        "title": "Belajar Saham & Reksadana",
+                        "description": "Untuk mencapai tujuan keuangan, tentu kita butuh cara dan instrumennya. Kalau kamu mulai dari uang kecil, coba deh mulai investasi di reksadana dan saham.",
+                        "author": "Yossy Girsang",
+                        "language": "ID",
+                        "image": "images/podcasts/reksadana.jpg"
                     }
             ]
 			},

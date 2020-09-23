@@ -18,7 +18,16 @@ function loadOwlCarousel() {
         },
         992:{
             items:6
-        }
+        },
+        1280: {
+            items:6          
+        },
+        1600: {
+            items:7     
+        },
+        1920: {
+            items:8        
+      },
     }
   })
 }

@@ -54,7 +54,23 @@
 			"author": "HiMama",
 			"language": "EN",
 			"image": "images/podcasts/preschool.png"
-        }
+		},
+        {       
+			"id": "006",
+			"title": "Belajar Saham & Reksadana",
+			"description": "Untuk mencapai tujuan keuangan, tentu kita butuh cara dan instrumennya. Kalau kamu mulai dari uang kecil, coba deh mulai investasi di reksadana dan saham.",
+			"author": "Yossy Girsang",
+			"language": "ID",
+			"image": "images/podcasts/reksadana.jpg"
+		},
+        {
+			"id": "001",
+			"title": "Global News Podcast",
+			"description": "The day’s top stories from BBC News. Delivered twice a day on weekdays, daily at weekends",
+			"author": "BBC World Service",
+			"language": "EN",
+			"image": "images/podcasts/bbc.jpg"
+		}
     ]
 	}
 }

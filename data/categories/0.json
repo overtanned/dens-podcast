@@ -53,8 +53,23 @@
 			"author": "Yossy Girsang",
 			"language": "ID",
 			"image": "images/podcasts/reksadana.jpg"
-		}
-
+		},
+        {       
+			"id": "406",
+			"title": "The Preschool Podcast",
+			"description": "The Preschool Podcast, brought to you by HiMama, is a platform for learning from leading professionals in early childhood education. If you work in a daycare, childcare or preschool setting, The Preschool Podcast will provide you with both practical advice for managing your organization, center or classroom, as well as thought provoking content and insights about the field of early childhood education.",
+			"author": "HiMama",
+			"language": "EN",
+			"image": "images/podcasts/preschool.png"
+		},
+		{
+			"id": "114",
+			"title": "Hello Goodbye",
+			"description": "Hello Goodbye adalah podcast drama adaptasi dari sebuah buku berjudul sama, berisikan cerita-cerita pendek mengenai perpisahan dan pertemuan.",
+			"author": "Box2BoxID x HelloGoodbye",
+			"language": "ID",
+			"image": "images/podcasts/goodbye.jpg"
+        }
     ]
 	}
 }

@@ -16,14 +16,14 @@ function player(podcast_id) {
   $( "#player" ).show().html(`
   <div class="container-fluid">
     <div class="row row-eq-height">
-      <div class="col-xs-3 col-sm-2 col-md-1">
-        <img src=${image} class="img-responsive" alt="">
+      <div class="col-xs-3 col-sm-2 col-md-1 col-xl-1">
+        <img src=${image} class="cover img-responsive" alt="">
       </div>
-      <div class="hidden-xs hidden-sm col-md-2">
+      <div class="hidden-xs hidden-sm col-md-2 col-xl-3">
         <h6>${title}</h6>
         <p>${desc}</p>
       </div>
-      <div id="player-container"class="col-xs-9 col-sm-8 col-md-6 text-center">
+      <div id="player-container"class="col-xs-9 col-sm-8 col-md-6 col-xl-6 text-center">
         <audio id="podcast-player" src=${link} type="audio/mp3" ontimeupdate="initProgressBar()" preload="metadata" autoplay>
         </audio>
 
@@ -48,7 +48,7 @@ function player(podcast_id) {
           
         </div>
       </div>
-      <div id="volume" class="hidden-xs col-sm-2 col-md-3">
+      <div id="volume" class="hidden-xs col-sm-2 col-md-3 col-xl-4">
         <div class="row">
           <div class="col-xs-2 text-right">
             <img src="images/icons/volume-down.svg" class="volumeDown" onclick="volumeDown()" alt="">

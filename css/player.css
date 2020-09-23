@@ -16,6 +16,32 @@
     justify-content: center;
 }
 
+@media (min-width: 1920px) {
+    #player .col-xl-1 {
+        width: 5%;
+    }
+
+    #player .col-xl-2 {
+        width: 10%;
+    }
+
+    #player .col-xl-3 {
+        width: 15%;
+    }
+
+    #player .col-xl-4 {
+        width: 20%;
+    }
+
+    #player .col-xl-5 {
+        width: 30%;
+    }
+
+    #player .col-xl-6 {
+        width: 60%;
+    }
+}
+
 #player .container-fluid {
     margin: 15px 5%;
 }
