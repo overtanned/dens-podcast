@@ -17,6 +17,7 @@ live-server
 ```
 
 ## Update Notes
+<br>**23/12/2020**: Now Playing in Playlist
 <br>**28/08/2020**: Dens Podcast Homepage, Recommendations, Categories
 <br>**31/08/2020**: Git Setup, Dividing into components, Dummy Header, Stories, Player (Cover, Title, Description)
 <br>**01/09/2020**: Player (Play/Pause, Track, Duration, Volume Up/Down, Volume Bar), Playlist
