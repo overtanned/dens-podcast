@@ -45,4 +45,17 @@
   #playlist-items .row-eq-height {
     display: flex;
     /* flex-flow: row wrap; */
-}
+  }
+
+  #playlist-items .btn-nowplaying {
+    background: #009999; 
+    color: #fff; 
+    padding: 2px 5px; 
+    border-radius: 999px; 
+    margin: 10px 0;
+  }
+
+  #playlist-items .highlight {
+    background: #36373A;
+    cursor: pointer;
+  }

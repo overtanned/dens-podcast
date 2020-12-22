@@ -85,8 +85,6 @@ function playlistPlayer(podcast_id, episode_id) {
     var episode_desc = episode.description.slice(0,50);
     var episode_title = episode.title.slice(0,30);
 
-    console.log(episode_file)
-
     $( "#player" ).show().html(`
     <div class="container-fluid">
       <div class="row row-eq-height">
@@ -104,7 +102,7 @@ function playlistPlayer(podcast_id, episode_id) {
   
           <div class="player-controls"> 
             <img src="images/icons/pause.svg" class="pause" onclick="pause()" alt="">
-            <img src="images/icons/play.svg" class="play" onclick="play()" alt="">
+            <img src="images/icons/play.svg" class="play" onclick="playlistPlayer(\'${podcast_id}'\,\'${episode_id}'\)" alt="">
             <div class="clearfix"></div>
   
             <div class="row">
@@ -140,9 +138,50 @@ function playlistPlayer(podcast_id, episode_id) {
     </div>`);    
   
     stopAllAudio(); // stop all other audio before playing a new one
-    play();
+    play(episode_id); // trigger play call player
 
   })
+}
+
+function play(episode_id) {
+
+    // reset all other nowplaying
+    $('#playlist-items div').removeClass("highlight")
+    $('#playlist-items').find(".nowplaying").remove();
+    $('#playlist-items').find('.play-button').attr('src','images/icons/play.svg')
+
+    // add nowplaying to current episode
+    var thisEpisode = $('.episode-'+episode_id);
+    $(thisEpisode).find('.desc').append('<div class="nowplaying"><a href="#" class="btn btn-nowplaying btn-playlist btn-xs"><i class="far fa-play-circle"></i> Now Playing</a></div>')
+
+    // add highlight to current nowplaying episode
+    $(thisEpisode).addClass("highlight")
+
+    // change nowplaying icon
+    $(thisEpisode).find('.play-button').attr('src','images/icons/nowplaying.gif')
+
+      // play audio in bottom player
+      var podcast = document.getElementById("podcast-player");
+      podcast.play();
+    
+      // set volume to 50%
+      podcast.volume = 0.5;
+    
+      var currentVolume = podcast.volume;
+      $('#volume-slider').val(currentVolume);
+      
+      $('.play').hide();
+      $('.pause').show();
+}
+
+function pause() {
+  var podcast = document.getElementById("podcast-player");
+  podcast.pause();
+  $('.pause').hide();
+  $('.play').show();
+
+  $('#playlist-items').find('.play-button').attr('src','images/icons/play.svg');
+  $('#playlist-items').find(".nowplaying").remove();
 }
 
 function backToCategory(category_id) {
